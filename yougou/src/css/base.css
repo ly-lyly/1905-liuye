@@ -118,7 +118,7 @@ img {
 .header .left-content .item-old a.switch .bg-switch {
     width: 19px;
     height: 19px;
-    background: url('img/css_sprites.png') -138px -11px;
+    background: url('../img/css_sprites.png') -138px -11px;
     vertical-align: middle
 }
 
@@ -129,7 +129,7 @@ img {
 .header .left-content .item-old a.switch:hover .bg-switch {
     width: 19px;
     height: 19px;
-    background: url('img/css_sprites.png') -82px -104px
+    background: url('../img/css_sprites.png') -82px -104px
 }
 
 .header .right-content {
@@ -144,7 +144,7 @@ img {
 .header .right-content>.item-frist i {
     width: 13px;
     height: 14px;
-    background: url('img/css_sprites.png') -177px -114px;
+    background: url('../img/css_sprites.png') -177px -114px;
     padding: 3px 8px 0 0;
     vertical-align: middle
 }
@@ -152,7 +152,7 @@ img {
 .header .right-content>.item-frist>a:hover>i {
     width: 13px;
     height: 14px;
-    background: url('img/css_sprites.png') -154px -114px
+    background: url('../img/css_sprites.png') -154px -114px
 }
 
 .header .right-content>.item {
@@ -162,7 +162,7 @@ img {
 .header .right-content>.item .top-collect .bg-top_collect {
     width: 12px;
     height: 11px;
-    background: url('img/css_sprites.png') -78px -174px;
+    background: url('../img/css_sprites.png') -78px -174px;
     padding-right: 5px;
     vertical-align: middle
 }
@@ -174,7 +174,7 @@ img {
 .header .right-content>.item .top-collect:hover .bg-top_collect {
     width: 12px;
     height: 11px;
-    background: url('img/css_sprites.png') -110px -174px
+    background: url('../img/css_sprites.png') -110px -174px
 }
 
 .header .right-content>.item>.title {
@@ -227,7 +227,7 @@ img {
 .header .right-content .item-cart a i {
     width: 12px;
     height: 12px;
-    background: url('img/css_sprites.png') -10px -197px;
+    background: url('../img/css_sprites.png') -10px -197px;
     padding: 4px 8px 0 0;
     vertical-align: middle
 }
@@ -239,7 +239,7 @@ img {
 .header .right-content .item-cart a:hover i {
     width: 12px;
     height: 12px;
-    background: url('img/css_sprites.png') -177px -80px
+    background: url('../img/css_sprites.png') -177px -80px
 }
 
 .logo-container {
@@ -325,7 +325,7 @@ img {
     cursor: pointer;
     width: 15px;
     height: 16px;
-    background: url('img/css_sprites.png') -177px -10px
+    background: url('../img/css_sprites.png') -177px -10px
 }
 
 .logo-container .nav-container-down {
@@ -443,25 +443,25 @@ img {
 .footer-feature .container .customer-service .content .bg-bottom_ensure {
     width: 27px;
     height: 27px;
-    background: url('img/css_sprites.png') -57px -57px
+    background: url('../img/css_sprites.png') -57px -57px
 }
 
 .footer-feature .container .customer-service .content .bg-bottom_logistics {
     width: 27px;
     height: 27px;
-    background: url('img/css_sprites.png') -10px -10px
+    background: url('../img/css_sprites.png') -10px -10px
 }
 
 .footer-feature .container .customer-service .content .bg-bottom_Price_difference {
     width: 27px;
     height: 27px;
-    background: url('img/css_sprites.png') -57px -10px
+    background: url('../img/css_sprites.png') -57px -10px
 }
 
 .footer-feature .container .customer-service .content .bg-bottom_service {
     width: 27px;
     height: 27px;
-    background: url('img/css_sprites.png') -10px -57px
+    background: url('../img/css_sprites.png') -10px -57px
 }
 
 .footer-feature .container .customer-service .content .title {
@@ -496,7 +496,7 @@ img {
 .footer-help .guide-container .content .bg-bottom_Consultation {
     width: 17px;
     height: 13px;
-    background: url('img/css_sprites.png') -124px -140px;
+    background: url('../img/css_sprites.png') -124px -140px;
     vertical-align: middle
 }
 

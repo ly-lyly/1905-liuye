@@ -9,17 +9,10 @@
     <title>优购时尚商城_用户注册</title>
     <meta name="description" content="优购时尚商城" />
     <meta name="keywords" content="优购时尚商城" />
-    <script>
-        //禁止iframe嵌入
-        if (window.top !== window.self) {
-            window.top.location = window.location;
-        }
-        var basePath = "";
-        var shoppingProcess = true;
-    </script>
     <link href="css/reg-base-2.css" type="text/css" rel="stylesheet" />
     <link href="css/reg-validator.css" type="text/css" rel="stylesheet" />
     <link href="css/new_log_reg.v2.0.css" type="text/css" rel="stylesheet" />
+
 
 </head>
 
@@ -33,7 +26,7 @@
                     <a href="javascript:;">关注</a>
                     <div class="border-content">
                         <div class="border">
-                            <img src="/template/common/images/weChat.jpg" alt="关注公众号" class="qr-code" />
+                            <img src="img/weChat.jpg" alt="关注公众号" class="qr-code" />
                             <span class="title">关注公众号</span>
                         </div>
                     </div>
@@ -44,7 +37,7 @@
                     <a href="javascript:;">下载APP</a>
                     <div class="border-content">
                         <div class="border">
-                            <img src="/template/common/images/app.jpg" alt="优购APP下载" class="qr-code" />
+                            <img src="img/app.jpg" alt="优购APP下载" class="qr-code" />
                             <span class="title">优购APP下载</span>
                         </div>
                     </div>
@@ -89,12 +82,11 @@
             </li>
         </ul>
     </div>
-    <script type="text/javascript" src="/template/common/js/index.js?5.3.5.5"></script>
 
     <div class="uc_hd">
         <div class="cen clearfix rel">
             <h2 class="cen_logo">
-                <a href="https://www.yougou.com"><img src="/template/common/images/usercenter/signin-register-logo.png" alt="" /></a>
+                <a href="https://www.yougou.com"><img src="img/signin-register-logo.png" alt="" /></a>
             </h2>
             <p class="cen_font fl">
                 新用户注册
@@ -107,17 +99,6 @@
         <i class="warn"></i><strong>由于雅虎邮箱即将停止服务</strong>，为了保障您以后能够通过邮箱找回密码、接收订单提醒等，建议尽快把账号完成绑定其他邮箱。<a class="Blue" href="javascript:void(0);" id="email_bind_modify">[立即绑定]</a><i class="close"></i>
     </div>
     <!--更换雅虎邮箱提示 end-->
-    <script type="text/javascript">
-        function login() {
-            location.href = "https://www.yougou.com/signin.jhtml" + location.search;
-            return false;
-        }
-
-        function register() {
-            location.href = "https://www.yougou.com/register.jhtml" + location.search;
-            return false;
-        }
-    </script>
 
     <form action="/registerValidate.jhtml" method="post">
         <input id="redirectURL_1" type="hidden" name="redirectURL" value="https://passport.yougou.com/signin.jhtml?redirectURL=http://www.yougou.com/">
@@ -135,52 +116,21 @@
                         <dl class="nreg_item mobile_regitem clearfix rel" id="mobile_nreg_item">
                             <dd>
                                 <div class="nreg_input_bg rel">
-                                    <label class="lab1 nreg_mob_ema"><span class="fl">手机号</span></label>
-                                    <input type="text" name="mobile" id="reg_mobile_" class="nreg_input" valid="Mobile" placeholder="请输入您的手机号码" />
+                                    <label class="lab1 nreg_mob_ema"><span class="fl">用户名</span></label>
+                                    <input type="text" name="mobile" id="reg_mobile_" class="nreg_input" valid="Mobile" placeholder="请输入用户名" />
                                 </div>
                             </dd>
                             <dt>
                         <div id="reg_mobile_tip" class="errortips"></div>
                         </dt>
                         </dl>
-                        <dl id="dlCode" class="nreg_item email_regitem mobile_regitem clearfix rel">
-                            <dd>
-                                <div class="nreg_input_bg fl" style="width:200px">
-                                    <label class="lab1" for="reg_checkcode">验证码</label>
-                                    <input type="text" name="reg_checkcode" id="code2_" class="nreg_sinput" maxlength="4" valid="IdentifyCode" style="width: 128px" />
-                                </div>
-                                <div class="fr" style="margin-right: 17px;">
-                                    <img id="imageValidate2" class="changeImg" />
-                                </div>
-                            </dd>
-                            <dt>
-                        <div id="code2_tip" class="errortips"></div>
-                        </dt>
-                        </dl>
-                        <input type="hidden" name="2R6q1E7t5s" value="1a7D4L" id="reg_nonce_id" />
-                        <dl id="dlMobileCode" class="nreg_item mobile_regitem clearfix rel">
-                            <dd>
-                                <div class="nreg_input_bg fl" style="width:235px;">
-                                    <label class="lab1" for="reg_mobile_code_">短信验证码</label>
-                                    <input type="text" name="mobilecode" id="reg_mobile_code_" class="nreg_sinput" valid="MsgIdentifyCode" style="width: 155px;" />
-                                </div>
-                                <div class="fr">
-                                    <a id="sendMsgBtn" href="javascript:;" class="regAutoBtn_1">
-                                        <span style="margin-left:0;" id="getMsgSpan">获取验证码</span>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dt>
 
-                        <div id="sendMsgTips" data-msg="sendmsgtips"></div>
-                        </dt>
-                        </dl>
                         <dl class="nreg_item clearfix rel">
-                            <div style="position:absolute;top:38px;right: 17px;">
+                            <!-- <div style="position:absolute;top:38px;right: 17px;">
                                 <div id="pwdStrength" class="pwdStrength none">
                                     <em>低</em><em>中</em><em>高</em>
                                 </div>
-                            </div>
+                            </div> -->
                             <dd>
                                 <div class="nreg_input_bg">
                                     <label class="lab1" for="reg_password_">密码</label>
@@ -194,8 +144,8 @@
                         <dl class="nreg_item clearfix rel">
                             <dd>
                                 <div class="nreg_input_bg">
-                                    <label class="lab1" for="reg_password2">确认密码</label>
-                                    <input type="password" id="reg_password2" class="nreg_input" maxlength="25" valid="RePassword" />
+                                    <label class="lab1" for="reg_password2">邮箱</label>
+                                    <input type="email" id="reg_password2" name="email" class="nreg_input" maxlength="25" valid="RePassword" />
                                 </div>
                             </dd>
                             <dt>
@@ -210,7 +160,7 @@
                         <p class="blank5"></p>
 
                         <p style="text-align: center">
-                            <a href="javascript:void();" class="nreg_submit"><input type="submit" title="立即注册" value="确认并注册" id="reg_buton"></a>
+                            <a href="http://10.31.158.19/1905-liuye/yougou/src/login.html" class="nreg_submit"><input type="submit" title="立即注册" value="确认并注册" id="reg_buton" name="submit"></a>
                         </p>
                     </div>
                 </div>
@@ -231,6 +181,11 @@
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1016027598/?label=EFaYCJrxqgIQzrO95AM&amp;guid=ON&amp;script=0" />
     </div>
+
+    <script src="script/thirdplugins/jquery.min.js"></script>
+    <script src="script/thirdplugins/jquery.lazyload.js"></script>
+    <script src="script/reg-setting.js"></script>
+
 </body>
 
 </html>

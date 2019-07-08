@@ -1,1 +1,1547 @@
-.wrap-center{width:1190px;margin:0 auto}.up{width:18px;height:14px;background:url('../images/css_sprites.png') -119px -104px}.down{width:18px;height:14px;background:url('../images/css_sprites.png') -86px -140px}.up_{width:18px;height:14px;background:url('../images/css_sprites.png') -48px -140px}.down_{width:18px;height:14px;background:url('../images/css_sprites.png') -10px -140px}.select-address{width:16px;height:16px;background:url('../images/css_sprites.png') -37px -197px}.close-bg{width:16px;height:16px;background:url('../images/css_sprites.png') -66px -197px}.submission-of-success{width:17px;height:16px;background:url('../images/css_sprites.png') -92px -197px}.img{width:14px;height:12px;background:url('../images/css_sprites.png') -123px -197px}.binding-mailbox{width:30px;height:30px;background:url('../images/css_sprites.png') -154px -197px}.login-password{width:30px;height:30px;background:url('../images/css_sprites.png') -192px -197px}.prompt{width:13px;height:13px;background:url('../images/css_sprites.png') -10px -221px}.set-top{width:16px;height:16px;background:url('../images/css_sprites.png') -48px -221px}.set-top_{width:16px;height:16px;background:url('../images/css_sprites.png') -77px -221px}.star{width:16px;height:16px;background:url('../images/css_sprites.png') -130px -221px}.star_{width:16px;height:16px;background:url('../images/css_sprites.png') -156px -221px}.hide{display:none}i{font-style:normal}ul,li{list-style:none}.icon{display:inline-block}.yg-button{display:inline-block;text-align:center}.yg-button:visited{color:#333}.yg-button-default{border:1px solid #333;color:#333}.yg-button-active{color:#fff;background:#333}.yg-button-active:visited{color:#fff}.yg-button-buy{width:222px;height:46px;line-height:46px;font-size:20px}.ellipsis{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.clear{clear:both}.clearfixed:after{display:block;clear:both;content:"";visibility:hidden;height:0}.clearfixed{zoom:1}ul.pages{width:100%;text-align:right;margin:50px 30px 100px 0;font-size:0}ul.pages li{line-height:27px;display:inline-block;font-size:14px;color:#333;text-align:center;padding:0 10px;margin:0 15px}ul.pages li.active{background-color:#222}ul.pages li.active a{text-decoration:none;color:#fff}ul.pages li a{text-decoration:none;color:#333}.nreg_head{height:92px}.nreg_logo{padding-top:15px;width:310px}.nreg_reback{padding-right:0;line-height:86px}.nreg_box{width:988px;height:451px}.nreg_left{height:506px;width:595px}.nreg_rig{margin-top:28px;height:420px;width:392px;border-left:1px dashed #e7e7e7}.nreg_rig p{padding-left:26px}.cop_link{color:#e1e1e1}.nreg_form{padding-left:10px;padding-top:30px}.nreg_form_title{height:93px;width:480px;background-position:-3px 24px}.nreg_item{width:580px;float:left}.nreg_item p{height:26px;padding-left:72px}.nreg_item dd{width:430px;float:left;font-size:14px;color:#000}.nreg_item dd .lab1{float:left;width:100px;font-size:14px;color:#000;height:33px;text-align:right;line-height:33px}.nreg_item dt{width:145px;float:left;line-height:18px}.nreg_item dt span{margin-left:15px}.righttips,.errortips,.nreg_139,.nreg_people,.nreg_qq,.nreg_zpay,.nreg_login,.nreg_input_hoversbg,.nreg_submit,.nlog_reg,.nlog_submit,.nreg_sina,.goCompleteBe,.we_chat{background:url(../images/reg_sprite2.png?2231eb90284cb615498e8c6e19005bbc) no-repeat}.nreg_input_bg,.nreg_input_hoverbg{width:313px;height:47px;margin-left:1px;float:left;position:relative}.lab2{position:absolute;left:1px;top:6px;top:8px\9;display:block;width:320px;padding-left:8px;font-size:12px;color:#aaa;cursor:text;z-index:0;letter-spacing:1px}.nreg_input_sbg{width:151px;height:47px}.nreg_input,.nreg_sinput{width:320px;_width:319px;height:31px;border:1px solid #d5d5d5;font-size:12px;vertical-align:middle;line-height:31px;background:url(../images/reg_rebg2.png?f99718087eb84dad415480a44e29abc8) repeat-x}.nreg_sinput{width:110px}.nreg_yellowbor{border:1px solid #333}.nreg_submit{width:139px;height:51px;border:0;background-position:-3px -1px}.nreg_submit input{cursor:pointer}.nreg_subon{background-position:-3px -54px}.nreg_subforbit{background-position:-3px -107px}.nreg_login{width:98px;height:32px;display:block;background-position:-148px -137px}.nreg_login:hover{background-position:-148px -172px}.nreg_zpay{padding:3px 5px 3px 25px;background-position:-314px -67px}.nreg_qq{padding-left:30px;padding-right:5px;padding-top:3px;padding-bottom:3px;background-position:-312px -90px}.nreg_sina{background-position:-149px -207px;padding-left:25px;padding-right:3px}.nreg_people{padding-left:30px;padding-top:3px;padding-bottom:3px;background-position:-312px -114px}.nreg_139{padding-left:30px;padding-top:3px;padding-bottom:3px;background-position:-312px -136px}.errortips{margin-top:10px;padding-left:25px;color:#f67649;background-position:-314px -31px}.righttips{margin-top:11px;padding-left:25px;width:30px;height:20px;display:block;color:#009645;background-position:-314px 0}.nlog_reg{width:127px;height:32px;display:block;background-position:-4px -160px}.nlog_reg:hover{background-position:-4px -194px}.nlog_submit{width:139px;height:51px;border:0;background-position:-145px -1px;cursor:pointer}.nlog_subon{background-position:-145px -54px}.regSubmitBtn,.codeCheckBtn{background:url(../images/reg_check_mobile.png?ef2b60d158a4b0c6eb994bf4e7d122a2) no-repeat}.regSubmitBtn{background-position:0 0;width:139px;height:50px;display:block;margin:18px 0 0 80px}.regStep{font-size:16px;font-family:"微软雅黑";color:#aaa;padding-bottom:20px}.regChkMobile_content{padding-left:30px;width:362px;margin-top:75px;border-left:1px dashed #eee}.regChkMobile_title{font-size:16px;font-family:"微软雅黑";color:#f67649}.regChkMobile_ul li,.regChkMobile_ul{list-style:disc;margin-left:7px}.regChkMobile_ul li{margin-top:5px;clear:both}.codeCheckBtn{background-position:0 -56px;width:86px;height:26px;display:inline-block}.regCheckMobileBox{padding:20px;color:#535353}.regCheckMobileBox label.lbl{width:70px;text-align:right;display:inline-block}.regCheckMobileBox .line{border:0;border-bottom:1px dashed #e4e4e4;height:1px;overflow:hidden}.regCheckMobileBox .infoBox{padding-left:70px}.regCheckMobileBox .infoBox p{padding-top:8px}.regCheckMobileBox span.errortips,.regCheckMobileBox span.righttips{display:inline-block}.regSucess{width:960px;border:1px solid #e4e4e4;height:265px}.regSucess_box{border:1px solid #eed38e;background:#fffdee;width:910px;padding:20px 20px 20px 60px;line-height:28px}.regSucess_box_suceIcon{background:url(../images/upng1.png?a224d0337c5507dd02ab44c0ee8f1bc3) no-repeat scroll 0 0;height:53px;margin-right:10px;width:68px}.regSucess_box_rt{width:400px}.regSucess_box_title{font-size:16px;color:#359800;padding-top:15px}.findPwd-box{padding-top:20px}.findPwd-title{display:none}.findPwd-step1-list{padding-bottom:100px}.findPwd-step1-list .valifyCode{margin-top:8px;margin-left:10px}.findPwd-box h2{width:970px;height:23px;line-height:23px;margin:0 auto;color:#333;font-size:22px;font-weight:normal;font-family:'Microsoft YaHei'}.findPwd-box .findPwd-step{background:url(../images/findpwd_step.jpg?a029ff05f2835bcb353ad449166fcb4d) no-repeat;width:975px;height:33px;line-height:36px;margin:0 auto;overflow:hidden;margin-top:28px}.findPwd-box .findPwd-step1{background-position:0 0}.findPwd-box .findPwd-step2{background-position:0 -33px}.findPwd-box .findPwd-step3{background-position:0 -66px}.findPwd-box .findPwd-step li{float:left;width:280px;padding-left:45px;color:#000;font-size:14px;font-weight:bold;font-family:'宋体'}.findPwd-box .findPwd-step li.step1{width:265px;padding-left:60px}.findPwd-box .findPwd-step li.on{color:#fff}.findPwd-box .findPwd-form,.findPwd-box .seeProblem{width:855px;margin:0 auto}.findPwd-box .findPwd-sbt{margin-left:1px}.findPwd-box .findPwd-btn,.findPwd-box .findPwd-goEmail,.findPwd-box .regetYzm,.findPwd-box .findPwd-ok{background:0;border:0;background:url(../images/findpwd_btn.png?5fe2856130f2c3937bb5819dac85eafd) no-repeat;cursor:pointer}.findPwd-box .findPwd-next{background-position:0 0;width:116px;height:38px}.findPwd-box .findPwd-goEmail{background-position:0 -38px;width:116px;height:38px}.findPwd-box .regetYzm{overflow:hidden;display:block;float:left;background-position:0 -76px;width:117px;height:24px;text-align:center;line-height:24px;color:#333;font-weight:bold;position:relative;top:-2px}.findPwd-box .findPwd-ok{background-position:0 -102px;width:116px;height:38px}.findPwd-box .findPwd-input{padding-left:2px}.findPwd-step2-t{color:#333;font-size:14px}.findPwd-box .findPwd-step2-list1,.findPwd-box .findPwd-step2-list2,.findPwd-box .findPwd-step2-list4{padding-top:28px}.findPwd-step2-list1 .findPwd-sbt,.findPwd-step2-list2 .findPwd-sbt{margin-top:38px}.findPwd-box .findPwd-step2-t{margin-bottom:18px}.findPwd-box .findPwd-style{display:block;width:588px;height:90px;padding-left:52px;border:1px solid #ccc;color:#333;margin-bottom:28px;cursor:pointer;position:relative}.findPwd-box .findPwd-styleRadio{position:absolute;left:18px;top:18px}.findPwd-box .findPwd-style .styleTitle{font-weight:bold}.findPwd-box .findPwd-style .findPwd-t{padding-top:13px;*padding-top:16px;_padding-top:13px}.findPwd-box .findPwd-style .findPwd-t p{height:30px;line-height:30px;overflow:hidden}.findPwd-box .seeProblem{padding-top:45px;padding-bottom:120px}.findPwd-box .seeProblem p{color:#333;font-weight:bold;border-bottom:1px solid #ededed;padding-bottom:5px}.findPwd-box .seeProblem ul{padding-top:13px}.findPwd-box .seeProblem ul li{background:url(../images/findpwd_ico.png?4123868ccc8d7eaa455c47fdc4c33b88) no-repeat 6px 7px;padding-left:21px}.findPwd-box .orange{color:#f67649}.findPwd-box .blue{color:#36c}.findPwd-box a.blue:hover{color:#f67649}.findPwd-box .b{font-weight:bold}.findPwd-box .mt2{margin-top:2px}.findPwd-box .mt10{margin-top:10px}.findPwd-box .mt8{margin-top:8px}.findPwd-box .ht31{height:31px;line-height:31px}.findPwd-box .nreg_input,.findPwd-box .nreg_sinput{padding-left:5px;padding-right:5px}.findPwd-box .findPwd-ts{position:absolute;left:8px;top:8px;color:#aaa}.findPwd-box .findPwd-step1-list,.findPwd-box .findPwd-step2-list3{padding-top:32px}.findPwd-box .findPwd-item{width:855px;margin-bottom:28px}.findPwd-box .findPwd-label1,.findPwd-box .findPwd-label2{margin:0;padding:0;width:126px;text-align:right;font-size:14px;color:#333}.findPwd-box .findPwd-tips{float:left;margin-left:5px}.findPwd-step2-list3 .mobleNumber{display:block;float:left;color:#333;font-size:12px;margin-right:10px}.findPwd-box .findPwd-label2{line-height:31px;*line-height:35px}.findPwd-box .findPwd-step2-list4{padding-bottom:100px}.findPwd-step2-list4 .findPwd-step2-t{padding-bottom:8px}.findPwd-box .findPwd-success{width:913px;height:118px;padding-left:60px;padding-top:20px;margin:0 auto;margin-top:38px;background:#fffdee;border:1px solid #eed390;overflow:hidden;margin-bottom:128px;line-height:28px}.regTabDiv{height:30px;padding-left:120px;border-bottom:1px solid #eee;margin-top:15px}.regTab{display:inline-block;width:102px;height:30px;font-size:14px;line-height:30px;text-align:center;position:relative}.regTabCurr{background:url(../images/reg_tab_bg.png?3c827df8f2946f70eb8385f103df946c) no-repeat;color:#a0410a;font-weight:bold;position:relative;top:1px}.regAutoBtn_1,.regAutoBtn_1 span{font-size:12px;display:inline-block;background:url(../images/bind_email_bg2.png?ddba1d456938da0e13badda01722a469) no-repeat}.regAutoBtn_1{height:25px;line-height:25px;padding:0 0 0 10px;cursor:pointer;color:#535353}.regAutoBtn_1 span{padding:0 10px 0 0;background-position:top right}.regAutoBtn_1.dis,.regAutoBtn_1.dis:hover{color:#aaa}.regAutoBtn_2,.regAutoBtn_2 span{font-size:14px;display:inline-block;background:url(../images/reg_autobtn_2.png?c940856edd9ea1603b687a8608e05026) no-repeat}.regAutoBtn_2{height:33px;line-height:33px;padding:0 0 0 10px;cursor:pointer;color:#fff;font-weight:bold}.regAutoBtn_2 span{padding:0 10px 0 0;background-position:top right}.regAutoBtn_2:hover{color:#fff}.sendEmailDiv{border:1px solid #e4e4e4}.sendEmailDivCon{margin:50px 40px;height:180px;line-height:30px}.sendEmailDivFooter{background:#f3f3f3;padding:10px 40px;height:105px;position:relative;bottom:0}.sendEmailDivFooter dt{font-size:14px;font-weight:bold;height:30px}.sendEmailDivFooter dd{width:165px;padding-right:20px;margin-right:25px;border-right:1px solid #e6e6e6;float:left}.sendEmailDivFooter dd.last{border:0}.regGuessLike{margin-top:20px;border:1px solid #e4e4e4}.regGuessLike h2{padding:10px 15px}.regGuessLike .proList li{margin-left:32px;*display:inline}.regSucessPerfectEmail{border:1px solid #ecebe6;background:#fff;padding:15px 20px 22px;width:385px;line-height:20px;margin-top:15px}.goCompleteBe{display:block;background-position:-303px -238px;padding-left:45px;margin-top:13px;height:25px;line-height:25px;_line-height:28px;font-size:21px;font-family:'Microsoft YaHei'}.userlogin_pop{width:540px;padding:15px 15px 0;overflow:hidden}.userlogin_con{width:540px;margin:0 auto}.userlogin_top{width:540px;height:27px;background:url(../images/login_topbg.png?64405442e6f0ac84d4714473189b4fbe) repeat-x 0 bottom}.userlogin_top ul{padding-left:20px}.userlogin_top li,.pop_reg,#pop_login,.pop_paylogin{background:url(../images/login_pop.png?0401040cbb6e22b3f296cb6e9e3dbd1e) no-repeat}.userlogin_top li{cursor:pointer;width:85px;height:27px;overflow:hidden;margin-right:10px;text-align:center;line-height:29px;float:left;background-position:-1px -29px}.userlogin_top li.curr{background-position:-98px -29px}.pop_table{width:530px}.pop_table tr td{height:38px;line-height:20px}.pop_input{width:166px;height:20px;line-height:20px;border:1px solid #999}.pop_ltd{width:102px;text-align:right}#pop_reg{width:86px;height:26px;cursor:pointer;text-indent:50em;overflow:hidden;float:left}#pop_login{width:86px;height:26px;cursor:pointer;border:0;background-position:-98px 0}.pop_paylogin{width:108px;height:23px;display:block;background-position:-193px 0}.pop_tabc{color:#000}.popRegTypeRad{padding:15px 30px}.userlogin_pop .errorHint{padding-top:0}.userlogin_pop .nreg_item dd{width:330px}.userlogin_pop .lab2{width:200px}.userlogin_pop .nreg_input{width:220px}.userlogin_pop .nreg_sinput{width:80px}.userlogin_pop .nreg_input_sbg{width:95px}.userlogin_pop .nreg_input_bg,.userlogin_pop .nreg_input_hoverbg{width:225px}.userlogin_pop .nreg_item{width:530px}.userlogin_pop .nreg_item dt{width:170px}.findPwd-box .righttips{display:none}.pwdStrength em{background:#efefef;display:inline-block;width:89px;color:#fff;height:15px;line-height:15px;text-align:center;margin-right:1px;color:#c5c4c4}.findPwd-form .nreg_input{width:258px}.pwdStrength em.pwdLow{background:#e60011;color:#fff}.pwdStrength em.pwdMid{background:#febd04;color:#fff}.pwdStrength em.pwdHeight{background:#094;color:#fff}.placeholder{display:block;color:#666;position:absolute;left:5px;z-index:10;font:12px/36px ''}.ph-wrap{position:relative;float:left}.ph-wrap-focus .placeholder{color:#ddd}.ph-wrap-has .placeholder{display:none}.nreg_input{padding-left:5px}.phone_rece{float:left;height:30px;margin-left:1px;position:relative;width:313px}.nreg_item .phone_rece .red_p{font-size:12px;color:#e60012;padding-left:0}.nreg_form{padding-top:20px}.reg_seoul{width:339px;height:197px;padding:20px 0 15px 26px}.phone_red{color:#e60012;padding-top:10px;padding-bottom:15px}.we_chat{background-position:-149px -226px;padding-bottom:3px;padding-left:30px;padding-top:3px}.nreg_rig p{padding-left:18px}.reg_seoul{padding:20px 0 15px 18px}.nreg_people,.nreg_qq,.nreg_zpay,.nreg_sina,.we_chat,.nreg_input_bg i,i.tab_nreg,.errortips,.ver_code,.dialogSkin3 .uiClose{background:url("../images/icon_sig_reg.png") no-repeat}#top_nav .view_area{z-index:99}.uc_hd{border-bottom:1px solid #dcdbde;margin-bottom:0}.uc_hd h2.cen_logo{padding:5px 30px 5px 0;border-right:1px solid #e6e6e6;margin-right:30px}.cen_font{font:18px/40px normal}.cen-new{width:100%;height:553px}.nreg_form{padding-top:30px;margin:0 15px}.nreg_box{margin:0 auto;height:auto}.nreg_left{background:#fff;box-sizing:border-box;height:450px;margin-top:50px;width:378px}.nreg_item{box-sizing:border-box;width:auto}.tab_sig_reg{border-bottom:1px solid #f3f3f3;margin:24px 15px 0 15px}.tab_sig_reg li{background:#f3f3f3;float:left;height:40px;line-height:40px;text-align:center;width:123px}.tab_sig_reg li a{color:#333}.tab_sig_reg li a:hover{color:#666}.tab_sig_reg .tab_cur{background:#333}.tab_sig_reg .tab_cur a{color:#fff}.tab_sig_reg .tab_cur a:hover{color:#fff}.tab_sig_reg .tab_sig{margin-left:53px;margin-right:5px}.nreg_item{float:none}.nreg_item dt,.userlogin_pop .nreg_item dt{height:28px;width:100%}.nreg_item dd{width:100%}.nreg_item{padding:0 0 0 8px}.nreg_input_bg{border:1px solid #e3e2e2;box-sizing:border-box;height:38px;margin:0}.nreg_input_bg i{display:block;float:left;height:36px;overflow:hidden;width:48px}.nreg_input_bg input{background:0;border:0;float:right;height:36px;line-height:36px;padding:0;width:235px}.nreg_input_bg i.reg_user_name{background-position:-168px -27px}.nreg_input_bg i.reg_password{background-position:-168px -61px}.nlog_submit,.nreg_submit,#pop_login,.nreg_submit input{background:#000;border:0;color:#fff;font-size:16px;height:40px;line-height:40px;width:312px}.cop_link{margin-top:5px;text-align:center}.cop_link a{line-height:54px;padding:9px 16px;margin:0 5px}.nreg_people{background-position:-73px -57px}.nreg_qq{background-position:-110px -22px}.nreg_zpay{background-position:-73px -21px}.nreg_sina{background-position:-37px -57px}.we_chat{background-position:-37px -21px}.nreg_item dd .lab1{font-size:12px;height:38px;line-height:38px;margin-left:10px;text-align:left;width:60px}.nreg_item dd .lab1 span:hover{color:#e60012}i.tab_nreg{background-position:-167px 5px;float:right;height:10px;margin-top:13px;width:10px}.tab_user_name{background:#fff;border:1px dotted #e3e2e2;display:none;font-size:12px;left:-1px;padding:0 0 0 10px;position:absolute;top:-1px;z-index:1}.tab_user_name a{display:block;height:38px;line-height:38px;width:60px}.regAutoBtn_1,.regAutoBtn_1 span{background:#323232;color:#fff;font-size:12px;height:38px;line-height:38px;margin-right:17px;padding:0;text-align:center;width:73px}.regAutoBtn_1 span:hover{background:#666}.errortips{background-position:-180px -95px;color:#333;margin-top:4px}.righttips{margin-top:0;position:absolute;right:-9px;top:10px}.sendmsg_tips{background:url("../images/reg_sprite2.png?2231eb90284cb615498e8c6e19005bbc") no-repeat!important;background-position:-314px 0!important;color:#009645!important;display:block!important;height:20px!important;margin-top:4px!important;padding-left:25px!important;position:static!important;width:100%!important}.pwdStrength em{width:46px}.nreg_item dd .ver_code{background-position:0 -95px;text-indent:-9999px}.dialogSkin3 .uiClose{background-position:0 11px;height:38px;width:20px}
+.wrap-center {
+    width: 1190px;
+    margin: 0 auto
+}
+
+.up {
+    width: 18px;
+    height: 14px;
+    background: url('../img/css_sprites.png') -119px -104px
+}
+
+.down {
+    width: 18px;
+    height: 14px;
+    background: url('../img/css_sprites.png') -86px -140px
+}
+
+.up_ {
+    width: 18px;
+    height: 14px;
+    background: url('../img/css_sprites.png') -48px -140px
+}
+
+.down_ {
+    width: 18px;
+    height: 14px;
+    background: url('../img/css_sprites.png') -10px -140px
+}
+
+.select-address {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -37px -197px
+}
+
+.close-bg {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -66px -197px
+}
+
+.submission-of-success {
+    width: 17px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -92px -197px
+}
+
+.img {
+    width: 14px;
+    height: 12px;
+    background: url('../img/css_sprites.png') -123px -197px
+}
+
+.binding-mailbox {
+    width: 30px;
+    height: 30px;
+    background: url('../img/css_sprites.png') -154px -197px
+}
+
+.login-password {
+    width: 30px;
+    height: 30px;
+    background: url('../img/css_sprites.png') -192px -197px
+}
+
+.prompt {
+    width: 13px;
+    height: 13px;
+    background: url('../img/css_sprites.png') -10px -221px
+}
+
+.set-top {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -48px -221px
+}
+
+.set-top_ {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -77px -221px
+}
+
+.star {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -130px -221px
+}
+
+.star_ {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -156px -221px
+}
+
+.hide {
+    display: none
+}
+
+i {
+    font-style: normal
+}
+
+ul,
+li {
+    list-style: none
+}
+
+.icon {
+    display: inline-block
+}
+
+.yg-button {
+    display: inline-block;
+    text-align: center
+}
+
+.yg-button:visited {
+    color: #333
+}
+
+.yg-button-default {
+    border: 1px solid #333;
+    color: #333
+}
+
+.yg-button-active {
+    color: #fff;
+    background: #333
+}
+
+.yg-button-active:visited {
+    color: #fff
+}
+
+.yg-button-buy {
+    width: 222px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 20px
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.clear {
+    clear: both
+}
+
+.clearfixed:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfixed {
+    zoom: 1
+}
+
+ul.pages {
+    width: 100%;
+    text-align: right;
+    margin: 50px 30px 100px 0;
+    font-size: 0
+}
+
+ul.pages li {
+    line-height: 27px;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 15px
+}
+
+ul.pages li.active {
+    background-color: #222
+}
+
+ul.pages li.active a {
+    text-decoration: none;
+    color: #fff
+}
+
+ul.pages li a {
+    text-decoration: none;
+    color: #333
+}
+
+.nreg_head {
+    height: 92px
+}
+
+.nreg_logo {
+    padding-top: 15px;
+    width: 310px
+}
+
+.nreg_reback {
+    padding-right: 0;
+    line-height: 86px
+}
+
+.nreg_box {
+    width: 988px;
+    height: 451px
+}
+
+.nreg_left {
+    height: 506px;
+    width: 595px
+}
+
+.nreg_rig {
+    margin-top: 28px;
+    height: 420px;
+    width: 392px;
+    border-left: 1px dashed #e7e7e7
+}
+
+.nreg_rig p {
+    padding-left: 26px
+}
+
+.cop_link {
+    color: #e1e1e1
+}
+
+.nreg_form {
+    padding-left: 10px;
+    padding-top: 30px
+}
+
+.nreg_form_title {
+    height: 93px;
+    width: 480px;
+    background-position: -3px 24px
+}
+
+.nreg_item {
+    width: 580px;
+    float: left
+}
+
+.nreg_item p {
+    height: 26px;
+    padding-left: 72px
+}
+
+.nreg_item dd {
+    width: 430px;
+    float: left;
+    font-size: 14px;
+    color: #000
+}
+
+.nreg_item dd .lab1 {
+    float: left;
+    width: 100px;
+    font-size: 14px;
+    color: #000;
+    height: 33px;
+    text-align: right;
+    line-height: 33px
+}
+
+.nreg_item dt {
+    width: 145px;
+    float: left;
+    line-height: 18px
+}
+
+.nreg_item dt span {
+    margin-left: 15px
+}
+
+.righttips,
+.errortips,
+.nreg_139,
+.nreg_people,
+.nreg_qq,
+.nreg_zpay,
+.nreg_login,
+.nreg_input_hoversbg,
+.nreg_submit,
+.nlog_reg,
+.nlog_submit,
+.nreg_sina,
+.goCompleteBe,
+.we_chat {
+    background: url(../img/reg_sprite2.png) no-repeat
+}
+
+.nreg_input_bg,
+.nreg_input_hoverbg {
+    width: 313px;
+    height: 47px;
+    margin-left: 1px;
+    float: left;
+    position: relative
+}
+
+.lab2 {
+    position: absolute;
+    left: 1px;
+    top: 6px;
+    top: 8px\9;
+    display: block;
+    width: 320px;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #aaa;
+    cursor: text;
+    z-index: 0;
+    letter-spacing: 1px
+}
+
+.nreg_input_sbg {
+    width: 151px;
+    height: 47px
+}
+
+.nreg_input,
+.nreg_sinput {
+    width: 320px;
+    _width: 319px;
+    height: 31px;
+    border: 1px solid #d5d5d5;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 31px;
+    background: url(../img/reg_rebg2.png) repeat-x
+}
+
+.nreg_sinput {
+    width: 110px
+}
+
+.nreg_yellowbor {
+    border: 1px solid #333
+}
+
+.nreg_submit {
+    width: 139px;
+    height: 51px;
+    border: 0;
+    background-position: -3px -1px
+}
+
+.nreg_submit input {
+    cursor: pointer
+}
+
+.nreg_subon {
+    background-position: -3px -54px
+}
+
+.nreg_subforbit {
+    background-position: -3px -107px
+}
+
+.nreg_login {
+    width: 98px;
+    height: 32px;
+    display: block;
+    background-position: -148px -137px
+}
+
+.nreg_login:hover {
+    background-position: -148px -172px
+}
+
+.nreg_zpay {
+    padding: 3px 5px 3px 25px;
+    background-position: -314px -67px
+}
+
+.nreg_qq {
+    padding-left: 30px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-position: -312px -90px
+}
+
+.nreg_sina {
+    background-position: -149px -207px;
+    padding-left: 25px;
+    padding-right: 3px
+}
+
+.nreg_people {
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-position: -312px -114px
+}
+
+.nreg_139 {
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-position: -312px -136px
+}
+
+.errortips {
+    margin-top: 10px;
+    padding-left: 25px;
+    color: #f67649;
+    background-position: -314px -31px
+}
+
+.righttips {
+    margin-top: 11px;
+    padding-left: 25px;
+    width: 30px;
+    height: 20px;
+    display: block;
+    color: #009645;
+    background-position: -314px 0
+}
+
+.nlog_reg {
+    width: 127px;
+    height: 32px;
+    display: block;
+    background-position: -4px -160px
+}
+
+.nlog_reg:hover {
+    background-position: -4px -194px
+}
+
+.nlog_submit {
+    width: 139px;
+    height: 51px;
+    border: 0;
+    background-position: -145px -1px;
+    cursor: pointer
+}
+
+.nlog_subon {
+    background-position: -145px -54px
+}
+
+.regSubmitBtn,
+.codeCheckBtn {
+    background: url(../images/reg_check_mobile.png?ef2b60d158a4b0c6eb994bf4e7d122a2) no-repeat
+}
+
+.regSubmitBtn {
+    background-position: 0 0;
+    width: 139px;
+    height: 50px;
+    display: block;
+    margin: 18px 0 0 80px
+}
+
+.regStep {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #aaa;
+    padding-bottom: 20px
+}
+
+.regChkMobile_content {
+    padding-left: 30px;
+    width: 362px;
+    margin-top: 75px;
+    border-left: 1px dashed #eee
+}
+
+.regChkMobile_title {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #f67649
+}
+
+.regChkMobile_ul li,
+.regChkMobile_ul {
+    list-style: disc;
+    margin-left: 7px
+}
+
+.regChkMobile_ul li {
+    margin-top: 5px;
+    clear: both
+}
+
+.codeCheckBtn {
+    background-position: 0 -56px;
+    width: 86px;
+    height: 26px;
+    display: inline-block
+}
+
+.regCheckMobileBox {
+    padding: 20px;
+    color: #535353
+}
+
+.regCheckMobileBox label.lbl {
+    width: 70px;
+    text-align: right;
+    display: inline-block
+}
+
+.regCheckMobileBox .line {
+    border: 0;
+    border-bottom: 1px dashed #e4e4e4;
+    height: 1px;
+    overflow: hidden
+}
+
+.regCheckMobileBox .infoBox {
+    padding-left: 70px
+}
+
+.regCheckMobileBox .infoBox p {
+    padding-top: 8px
+}
+
+.regCheckMobileBox span.errortips,
+.regCheckMobileBox span.righttips {
+    display: inline-block
+}
+
+.regSucess {
+    width: 960px;
+    border: 1px solid #e4e4e4;
+    height: 265px
+}
+
+.regSucess_box {
+    border: 1px solid #eed38e;
+    background: #fffdee;
+    width: 910px;
+    padding: 20px 20px 20px 60px;
+    line-height: 28px
+}
+
+.regSucess_box_suceIcon {
+    background: url(../images/upng1.png?a224d0337c5507dd02ab44c0ee8f1bc3) no-repeat scroll 0 0;
+    height: 53px;
+    margin-right: 10px;
+    width: 68px
+}
+
+.regSucess_box_rt {
+    width: 400px
+}
+
+.regSucess_box_title {
+    font-size: 16px;
+    color: #359800;
+    padding-top: 15px
+}
+
+.findPwd-box {
+    padding-top: 20px
+}
+
+.findPwd-title {
+    display: none
+}
+
+.findPwd-step1-list {
+    padding-bottom: 100px
+}
+
+.findPwd-step1-list .valifyCode {
+    margin-top: 8px;
+    margin-left: 10px
+}
+
+.findPwd-box h2 {
+    width: 970px;
+    height: 23px;
+    line-height: 23px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei'
+}
+
+.findPwd-box .findPwd-step {
+    background: url(../images/findpwd_step.jpg?a029ff05f2835bcb353ad449166fcb4d) no-repeat;
+    width: 975px;
+    height: 33px;
+    line-height: 36px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 28px
+}
+
+.findPwd-box .findPwd-step1 {
+    background-position: 0 0
+}
+
+.findPwd-box .findPwd-step2 {
+    background-position: 0 -33px
+}
+
+.findPwd-box .findPwd-step3 {
+    background-position: 0 -66px
+}
+
+.findPwd-box .findPwd-step li {
+    float: left;
+    width: 280px;
+    padding-left: 45px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: '宋体'
+}
+
+.findPwd-box .findPwd-step li.step1 {
+    width: 265px;
+    padding-left: 60px
+}
+
+.findPwd-box .findPwd-step li.on {
+    color: #fff
+}
+
+.findPwd-box .findPwd-form,
+.findPwd-box .seeProblem {
+    width: 855px;
+    margin: 0 auto
+}
+
+.findPwd-box .findPwd-sbt {
+    margin-left: 1px
+}
+
+.findPwd-box .findPwd-btn,
+.findPwd-box .findPwd-goEmail,
+.findPwd-box .regetYzm,
+.findPwd-box .findPwd-ok {
+    background: 0;
+    border: 0;
+    background: url(../images/findpwd_btn.png?5fe2856130f2c3937bb5819dac85eafd) no-repeat;
+    cursor: pointer
+}
+
+.findPwd-box .findPwd-next {
+    background-position: 0 0;
+    width: 116px;
+    height: 38px
+}
+
+.findPwd-box .findPwd-goEmail {
+    background-position: 0 -38px;
+    width: 116px;
+    height: 38px
+}
+
+.findPwd-box .regetYzm {
+    overflow: hidden;
+    display: block;
+    float: left;
+    background-position: 0 -76px;
+    width: 117px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    top: -2px
+}
+
+.findPwd-box .findPwd-ok {
+    background-position: 0 -102px;
+    width: 116px;
+    height: 38px
+}
+
+.findPwd-box .findPwd-input {
+    padding-left: 2px
+}
+
+.findPwd-step2-t {
+    color: #333;
+    font-size: 14px
+}
+
+.findPwd-box .findPwd-step2-list1,
+.findPwd-box .findPwd-step2-list2,
+.findPwd-box .findPwd-step2-list4 {
+    padding-top: 28px
+}
+
+.findPwd-step2-list1 .findPwd-sbt,
+.findPwd-step2-list2 .findPwd-sbt {
+    margin-top: 38px
+}
+
+.findPwd-box .findPwd-step2-t {
+    margin-bottom: 18px
+}
+
+.findPwd-box .findPwd-style {
+    display: block;
+    width: 588px;
+    height: 90px;
+    padding-left: 52px;
+    border: 1px solid #ccc;
+    color: #333;
+    margin-bottom: 28px;
+    cursor: pointer;
+    position: relative
+}
+
+.findPwd-box .findPwd-styleRadio {
+    position: absolute;
+    left: 18px;
+    top: 18px
+}
+
+.findPwd-box .findPwd-style .styleTitle {
+    font-weight: bold
+}
+
+.findPwd-box .findPwd-style .findPwd-t {
+    padding-top: 13px;
+    *padding-top: 16px;
+    _padding-top: 13px
+}
+
+.findPwd-box .findPwd-style .findPwd-t p {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden
+}
+
+.findPwd-box .seeProblem {
+    padding-top: 45px;
+    padding-bottom: 120px
+}
+
+.findPwd-box .seeProblem p {
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5px
+}
+
+.findPwd-box .seeProblem ul {
+    padding-top: 13px
+}
+
+.findPwd-box .seeProblem ul li {
+    background: url(../images/findpwd_ico.png?4123868ccc8d7eaa455c47fdc4c33b88) no-repeat 6px 7px;
+    padding-left: 21px
+}
+
+.findPwd-box .orange {
+    color: #f67649
+}
+
+.findPwd-box .blue {
+    color: #36c
+}
+
+.findPwd-box a.blue:hover {
+    color: #f67649
+}
+
+.findPwd-box .b {
+    font-weight: bold
+}
+
+.findPwd-box .mt2 {
+    margin-top: 2px
+}
+
+.findPwd-box .mt10 {
+    margin-top: 10px
+}
+
+.findPwd-box .mt8 {
+    margin-top: 8px
+}
+
+.findPwd-box .ht31 {
+    height: 31px;
+    line-height: 31px
+}
+
+.findPwd-box .nreg_input,
+.findPwd-box .nreg_sinput {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.findPwd-box .findPwd-ts {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: #aaa
+}
+
+.findPwd-box .findPwd-step1-list,
+.findPwd-box .findPwd-step2-list3 {
+    padding-top: 32px
+}
+
+.findPwd-box .findPwd-item {
+    width: 855px;
+    margin-bottom: 28px
+}
+
+.findPwd-box .findPwd-label1,
+.findPwd-box .findPwd-label2 {
+    margin: 0;
+    padding: 0;
+    width: 126px;
+    text-align: right;
+    font-size: 14px;
+    color: #333
+}
+
+.findPwd-box .findPwd-tips {
+    float: left;
+    margin-left: 5px
+}
+
+.findPwd-step2-list3 .mobleNumber {
+    display: block;
+    float: left;
+    color: #333;
+    font-size: 12px;
+    margin-right: 10px
+}
+
+.findPwd-box .findPwd-label2 {
+    line-height: 31px;
+    *line-height: 35px
+}
+
+.findPwd-box .findPwd-step2-list4 {
+    padding-bottom: 100px
+}
+
+.findPwd-step2-list4 .findPwd-step2-t {
+    padding-bottom: 8px
+}
+
+.findPwd-box .findPwd-success {
+    width: 913px;
+    height: 118px;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 38px;
+    background: #fffdee;
+    border: 1px solid #eed390;
+    overflow: hidden;
+    margin-bottom: 128px;
+    line-height: 28px
+}
+
+.regTabDiv {
+    height: 30px;
+    padding-left: 120px;
+    border-bottom: 1px solid #eee;
+    margin-top: 15px
+}
+
+.regTab {
+    display: inline-block;
+    width: 102px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    position: relative
+}
+
+.regTabCurr {
+    background: url(../images/reg_tab_bg.png?3c827df8f2946f70eb8385f103df946c) no-repeat;
+    color: #a0410a;
+    font-weight: bold;
+    position: relative;
+    top: 1px
+}
+
+.regAutoBtn_1,
+.regAutoBtn_1 span {
+    font-size: 12px;
+    display: inline-block;
+    background: url(../images/bind_email_bg2.png?ddba1d456938da0e13badda01722a469) no-repeat
+}
+
+.regAutoBtn_1 {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    color: #535353
+}
+
+.regAutoBtn_1 span {
+    padding: 0 10px 0 0;
+    background-position: top right
+}
+
+.regAutoBtn_1.dis,
+.regAutoBtn_1.dis:hover {
+    color: #aaa
+}
+
+.regAutoBtn_2,
+.regAutoBtn_2 span {
+    font-size: 14px;
+    display: inline-block;
+    background: url(../images/reg_autobtn_2.png?c940856edd9ea1603b687a8608e05026) no-repeat
+}
+
+.regAutoBtn_2 {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 0 0 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold
+}
+
+.regAutoBtn_2 span {
+    padding: 0 10px 0 0;
+    background-position: top right
+}
+
+.regAutoBtn_2:hover {
+    color: #fff
+}
+
+.sendEmailDiv {
+    border: 1px solid #e4e4e4
+}
+
+.sendEmailDivCon {
+    margin: 50px 40px;
+    height: 180px;
+    line-height: 30px
+}
+
+.sendEmailDivFooter {
+    background: #f3f3f3;
+    padding: 10px 40px;
+    height: 105px;
+    position: relative;
+    bottom: 0
+}
+
+.sendEmailDivFooter dt {
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px
+}
+
+.sendEmailDivFooter dd {
+    width: 165px;
+    padding-right: 20px;
+    margin-right: 25px;
+    border-right: 1px solid #e6e6e6;
+    float: left
+}
+
+.sendEmailDivFooter dd.last {
+    border: 0
+}
+
+.regGuessLike {
+    margin-top: 20px;
+    border: 1px solid #e4e4e4
+}
+
+.regGuessLike h2 {
+    padding: 10px 15px
+}
+
+.regGuessLike .proList li {
+    margin-left: 32px;
+    *display: inline
+}
+
+.regSucessPerfectEmail {
+    border: 1px solid #ecebe6;
+    background: #fff;
+    padding: 15px 20px 22px;
+    width: 385px;
+    line-height: 20px;
+    margin-top: 15px
+}
+
+.goCompleteBe {
+    display: block;
+    background-position: -303px -238px;
+    padding-left: 45px;
+    margin-top: 13px;
+    height: 25px;
+    line-height: 25px;
+    _line-height: 28px;
+    font-size: 21px;
+    font-family: 'Microsoft YaHei'
+}
+
+.userlogin_pop {
+    width: 540px;
+    padding: 15px 15px 0;
+    overflow: hidden
+}
+
+.userlogin_con {
+    width: 540px;
+    margin: 0 auto
+}
+
+.userlogin_top {
+    width: 540px;
+    height: 27px;
+    background: url(../images/login_topbg.png?64405442e6f0ac84d4714473189b4fbe) repeat-x 0 bottom
+}
+
+.userlogin_top ul {
+    padding-left: 20px
+}
+
+.userlogin_top li,
+.pop_reg,
+#pop_login,
+.pop_paylogin {
+    background: url(../images/login_pop.png?0401040cbb6e22b3f296cb6e9e3dbd1e) no-repeat
+}
+
+.userlogin_top li {
+    cursor: pointer;
+    width: 85px;
+    height: 27px;
+    overflow: hidden;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    background-position: -1px -29px
+}
+
+.userlogin_top li.curr {
+    background-position: -98px -29px
+}
+
+.pop_table {
+    width: 530px
+}
+
+.pop_table tr td {
+    height: 38px;
+    line-height: 20px
+}
+
+.pop_input {
+    width: 166px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #999
+}
+
+.pop_ltd {
+    width: 102px;
+    text-align: right
+}
+
+#pop_reg {
+    width: 86px;
+    height: 26px;
+    cursor: pointer;
+    text-indent: 50em;
+    overflow: hidden;
+    float: left
+}
+
+#pop_login {
+    width: 86px;
+    height: 26px;
+    cursor: pointer;
+    border: 0;
+    background-position: -98px 0
+}
+
+.pop_paylogin {
+    width: 108px;
+    height: 23px;
+    display: block;
+    background-position: -193px 0
+}
+
+.pop_tabc {
+    color: #000
+}
+
+.popRegTypeRad {
+    padding: 15px 30px
+}
+
+.userlogin_pop .errorHint {
+    padding-top: 0
+}
+
+.userlogin_pop .nreg_item dd {
+    width: 330px
+}
+
+.userlogin_pop .lab2 {
+    width: 200px
+}
+
+.userlogin_pop .nreg_input {
+    width: 220px
+}
+
+.userlogin_pop .nreg_sinput {
+    width: 80px
+}
+
+.userlogin_pop .nreg_input_sbg {
+    width: 95px
+}
+
+.userlogin_pop .nreg_input_bg,
+.userlogin_pop .nreg_input_hoverbg {
+    width: 225px
+}
+
+.userlogin_pop .nreg_item {
+    width: 530px
+}
+
+.userlogin_pop .nreg_item dt {
+    width: 170px
+}
+
+.findPwd-box .righttips {
+    display: none
+}
+
+.pwdStrength em {
+    background: #efefef;
+    display: inline-block;
+    width: 89px;
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 1px;
+    color: #c5c4c4
+}
+
+.findPwd-form .nreg_input {
+    width: 258px
+}
+
+.pwdStrength em.pwdLow {
+    background: #e60011;
+    color: #fff
+}
+
+.pwdStrength em.pwdMid {
+    background: #febd04;
+    color: #fff
+}
+
+.pwdStrength em.pwdHeight {
+    background: #094;
+    color: #fff
+}
+
+.placeholder {
+    display: block;
+    color: #666;
+    position: absolute;
+    left: 5px;
+    z-index: 10;
+    font: 12px/36px ''
+}
+
+.ph-wrap {
+    position: relative;
+    float: left
+}
+
+.ph-wrap-focus .placeholder {
+    color: #ddd
+}
+
+.ph-wrap-has .placeholder {
+    display: none
+}
+
+.nreg_input {
+    padding-left: 5px
+}
+
+.phone_rece {
+    float: left;
+    height: 30px;
+    margin-left: 1px;
+    position: relative;
+    width: 313px
+}
+
+.nreg_item .phone_rece .red_p {
+    font-size: 12px;
+    color: #e60012;
+    padding-left: 0
+}
+
+.nreg_form {
+    padding-top: 20px
+}
+
+.reg_seoul {
+    width: 339px;
+    height: 197px;
+    padding: 20px 0 15px 26px
+}
+
+.phone_red {
+    color: #e60012;
+    padding-top: 10px;
+    padding-bottom: 15px
+}
+
+.we_chat {
+    background-position: -149px -226px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-top: 3px
+}
+
+.nreg_rig p {
+    padding-left: 18px
+}
+
+.reg_seoul {
+    padding: 20px 0 15px 18px
+}
+
+.nreg_people,
+.nreg_qq,
+.nreg_zpay,
+.nreg_sina,
+.we_chat,
+.nreg_input_bg i,
+i.tab_nreg,
+.errortips,
+.ver_code,
+.dialogSkin3 .uiClose {
+    background: url("../img/icon_sig_reg.png") no-repeat
+}
+
+#top_nav .view_area {
+    z-index: 99
+}
+
+.uc_hd {
+    border-bottom: 1px solid #dcdbde;
+    margin-bottom: 0
+}
+
+.uc_hd h2.cen_logo {
+    padding: 5px 30px 5px 0;
+    border-right: 1px solid #e6e6e6;
+    margin-right: 30px
+}
+
+.cen_font {
+    font: 18px/40px normal
+}
+
+.cen-new {
+    width: 100%;
+    height: 553px
+}
+
+.nreg_form {
+    padding-top: 30px;
+    margin: 0 15px
+}
+
+.nreg_box {
+    margin: 0 auto;
+    height: auto
+}
+
+.nreg_left {
+    background: #fff;
+    box-sizing: border-box;
+    height: 450px;
+    margin-top: 50px;
+    width: 378px
+}
+
+.nreg_item {
+    box-sizing: border-box;
+    width: auto
+}
+
+.tab_sig_reg {
+    border-bottom: 1px solid #f3f3f3;
+    margin: 24px 15px 0 15px
+}
+
+.tab_sig_reg li {
+    background: #f3f3f3;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 123px
+}
+
+.tab_sig_reg li a {
+    color: #333
+}
+
+.tab_sig_reg li a:hover {
+    color: #666
+}
+
+.tab_sig_reg .tab_cur {
+    background: #333
+}
+
+.tab_sig_reg .tab_cur a {
+    color: #fff
+}
+
+.tab_sig_reg .tab_cur a:hover {
+    color: #fff
+}
+
+.tab_sig_reg .tab_sig {
+    margin-left: 53px;
+    margin-right: 5px
+}
+
+.nreg_item {
+    float: none
+}
+
+.nreg_item dt,
+.userlogin_pop .nreg_item dt {
+    height: 28px;
+    width: 100%
+}
+
+.nreg_item dd {
+    width: 100%
+}
+
+.nreg_item {
+    padding: 0 0 0 8px
+}
+
+.nreg_input_bg {
+    border: 1px solid #e3e2e2;
+    box-sizing: border-box;
+    height: 38px;
+    margin: 0
+}
+
+.nreg_input_bg i {
+    display: block;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    width: 48px
+}
+
+.nreg_input_bg input {
+    background: 0;
+    border: 0;
+    float: right;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    width: 235px
+}
+
+.nreg_input_bg i.reg_user_name {
+    background-position: -168px -27px
+}
+
+.nreg_input_bg i.reg_password {
+    background-position: -168px -61px
+}
+
+.nlog_submit,
+.nreg_submit,
+#pop_login,
+.nreg_submit input {
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 312px
+}
+
+.cop_link {
+    margin-top: 5px;
+    text-align: center
+}
+
+.cop_link a {
+    line-height: 54px;
+    padding: 9px 16px;
+    margin: 0 5px
+}
+
+.nreg_people {
+    background-position: -73px -57px
+}
+
+.nreg_qq {
+    background-position: -110px -22px
+}
+
+.nreg_zpay {
+    background-position: -73px -21px
+}
+
+.nreg_sina {
+    background-position: -37px -57px
+}
+
+.we_chat {
+    background-position: -37px -21px
+}
+
+.nreg_item dd .lab1 {
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+    text-align: left;
+    width: 60px
+}
+
+.nreg_item dd .lab1 span:hover {
+    color: #e60012
+}
+
+i.tab_nreg {
+    background-position: -167px 5px;
+    float: right;
+    height: 10px;
+    margin-top: 13px;
+    width: 10px
+}
+
+.tab_user_name {
+    background: #fff;
+    border: 1px dotted #e3e2e2;
+    display: none;
+    font-size: 12px;
+    left: -1px;
+    padding: 0 0 0 10px;
+    position: absolute;
+    top: -1px;
+    z-index: 1
+}
+
+.tab_user_name a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 60px
+}
+
+.regAutoBtn_1,
+.regAutoBtn_1 span {
+    background: #323232;
+    color: #fff;
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 17px;
+    padding: 0;
+    text-align: center;
+    width: 73px
+}
+
+.regAutoBtn_1 span:hover {
+    background: #666
+}
+
+.errortips {
+    background-position: -180px -95px;
+    color: #333;
+    margin-top: 4px
+}
+
+.righttips {
+    margin-top: 0;
+    position: absolute;
+    right: -9px;
+    top: 10px
+}
+
+.sendmsg_tips {
+    background: url("../img/reg_sprite2.png") no-repeat!important;
+    background-position: -314px 0!important;
+    color: #009645!important;
+    display: block!important;
+    height: 20px!important;
+    margin-top: 4px!important;
+    padding-left: 25px!important;
+    position: static!important;
+    width: 100%!important
+}
+
+.pwdStrength em {
+    width: 46px
+}
+
+.nreg_item dd .ver_code {
+    background-position: 0 -95px;
+    text-indent: -9999px
+}
+
+.dialogSkin3 .uiClose {
+    background-position: 0 11px;
+    height: 38px;
+    width: 20px
+}

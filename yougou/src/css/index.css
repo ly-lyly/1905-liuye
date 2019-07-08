@@ -6,91 +6,91 @@
 .up {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -119px -104px
+    background: url('../img/css_sprites.png') -119px -104px
 }
 
 .down {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -86px -140px
+    background: url('../img/css_sprites.png') -86px -140px
 }
 
 .up_ {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -48px -140px
+    background: url('../img/css_sprites.png') -48px -140px
 }
 
 .down_ {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -10px -140px
+    background: url('../img/css_sprites.png') -10px -140px
 }
 
 .select-address {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -37px -197px
+    background: url('../img/css_sprites.png') -37px -197px
 }
 
 .close-bg {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -66px -197px
+    background: url('../img/css_sprites.png') -66px -197px
 }
 
 .submission-of-success {
     width: 17px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -92px -197px
+    background: url('../img/css_sprites.png') -92px -197px
 }
 
 .img-icon {
     width: 14px;
     height: 12px;
-    background: url('/template/common/images/css_sprites.png') -123px -197px
+    background: url('../img/css_sprites.png') -123px -197px
 }
 
 .binding-mailbox {
     width: 30px;
     height: 30px;
-    background: url('/template/common/images/css_sprites.png') -154px -197px
+    background: url('../img/css_sprites.png') -154px -197px
 }
 
 .login-password {
     width: 30px;
     height: 30px;
-    background: url('/template/common/images/css_sprites.png') -192px -197px
+    background: url('../img/css_sprites.png') -192px -197px
 }
 
 .prompt {
     width: 13px;
     height: 13px;
-    background: url('/template/common/images/css_sprites.png') -10px -221px
+    background: url('../img/css_sprites.png') -10px -221px
 }
 
 .set-top {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -48px -221px
+    background: url('../img/css_sprites.png') -48px -221px
 }
 
 .set-top_ {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -77px -221px
+    background: url('../img/css_sprites.png') -77px -221px
 }
 
 .star {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -130px -221px
+    background: url('../img/css_sprites.png') -130px -221px
 }
 
 .star_ {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -156px -221px
+    background: url('../img/css_sprites.png') -156px -221px
 }
 
 .hide {
@@ -449,7 +449,7 @@ ul.pages li a {
 #command-new-products .swiper-wrap .swiper-item-wrap .swiper-sub-item .price-wrap .collect {
     width: 15px;
     height: 15px;
-    background: url(/template/common/images/css_sprites.png) -38px -243px;
+    background: url(../img/css_sprites.png) -38px -243px;
     position: absolute;
     right: 8px;
     top: 5px;
@@ -460,7 +460,7 @@ ul.pages li a {
 #command-new-products .swiper-wrap .swiper-item-wrap .swiper-sub-item .price-wrap .collect.active {
     width: 15px;
     height: 15px;
-    background: url(/template/common/images/css_sprites.png) -10px -243px
+    background: url(../img/css_sprites.png) -10px -243px
 }
 
 #command-new-products .swiper-wrap .swiper-sub-item:hover {

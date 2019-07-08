@@ -1,0 +1,183 @@
+@charset "utf-8";
+body {
+    font-size: 12px;
+    padding: 0;
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0
+}
+
+* html,
+* html body {
+    background-image: url(about:blank);
+    background-attachment: fixed
+}
+
+.ygDialog {
+    position: fixed;
+    _position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #fff;
+    z-index: 900;
+    width: 200px;
+    height: 96px;
+    margin-left: -100px;
+    margin-top: -48px;
+    visibility: hidden
+}
+
+.dialogMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    background: url(about:blank);
+    background: rgba(0, 0, 0, 0.3);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, 0, endColorstr=#4C000000, 0);
+    overflow: hidden;
+    display: block
+}
+
+:root .dialogMask {
+    -webkit-filter: none;
+    filter: none
+}
+
+*html .hackiframe {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=0)
+}
+
+.dialogSkin2 {
+    border: 1px solid #feeb9c;
+    background: #fff
+}
+
+.dialogSkin2 .uiDiv {
+    border: 3px solid #fef7da;
+    background: #fff
+}
+
+.dialogSkin2 .uiClose {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -47px -104px;
+    float: right;
+    cursor: pointer
+}
+
+.dialogSkin2 .uiTitle {
+    color: #f67649;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+.uiContent {
+    zoom: 1;
+    background: #fff
+}
+
+.uiTable {
+    border-collapse: collapse;
+    display: block;
+    zoom: 1;
+    width: 100%
+}
+
+.dialogSkin1 {
+    border: 1px solid #333
+}
+
+.dialogSkin1 .dg_title {
+    background: #333;
+    overflow: hidden;
+    height: 30px
+}
+
+.dialogSkin1 .uiTitle {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 14px;
+    float: left
+}
+
+.dialogSkin1 .uiClose {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -47px -104px;
+    color: #fff;
+    float: right;
+    margin: 7px 0 0 10px;
+    padding-left: 10px;
+    display: block;
+    line-height: 16px
+}
+
+.dg_content {
+    background: #fff;
+    overflow: auto
+}
+
+.dg_loading {
+    position: fixed;
+    _position: absolute;
+    z-index: 201;
+    background: #fff;
+    text-align: center;
+    width: 170px;
+    margin-left: -100px;
+    left: 50%;
+    border: 1px solid #eee;
+    padding: 10px;
+    top: 50%;
+    display: block;
+    margin-top: -20px;
+    font: 12px/30px ''
+}
+
+.dg_drag_handle {
+    cursor: move
+}
+
+.dialogSkin3 {
+    background: #8a8a8a;
+    padding: 5px
+}
+
+.dialogSkin3 .uiDiv {
+    background: #fff
+}
+
+.dialogSkin3 .uiClose {
+    background: url(../images/close-3.png?75984af8e4572fe102a79fe326ec6756) no-repeat right center;
+    float: right;
+    cursor: pointer;
+    padding-right: 17px;
+    color: #999;
+    margin: 5px 8px 0 0
+}
+
+.dialogSkin3 .uiTitle {
+    color: #535353;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px
+}

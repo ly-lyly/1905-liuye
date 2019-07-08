@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache,no-store, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <title>订单提交中心_优购网上鞋城</title>
+
+    <link href="css/uc.base.css" type="text/css" rel="stylesheet" />
+    <link href="css/base.css" type="text/css" rel="stylesheet" />
+    <link href="css/shopcar_v4.0.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!--公共头部top_nav_bar-->
+    <!--公用头部start-->
+    <div id="common_header" class="header"></div>
+    <!-- js -->
+    <script src="script\thirdplugins\jquery.min.js"></script>
+    <script>
+        $('.header').load('yetou.html .header');
+    </script>
+    <!--header end-->
+
+    <div class="cen cart_header">
+        <h1 class="logo">
+            <a href="https://www.yougou.com" title="优生活，购时尚"><img src="https://pcs1.ygimg.cn/template/common/images/logo-yg.png" alt="优购时尚商城" /></a>
+        </h1>
+        <div class="fr cart_step mt20">
+            <ul>
+                <li class="current">我的购物袋<em></em><i></i></li>
+                <li>提交订单中心<em></em><i></i></li>
+                <li>成功提交订单<em></em><i></i></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <span class="none">
+		<input type="hidden" id="addProductMaxNum" value="0"/>
+		<input type="hidden" id="limitCartAddProductMaxNum" value="100"/>
+		<input type="hidden" id="orderNum" value="0"/>
+		<input type="hidden" id="isLock" value="false"/>
+		<input type="hidden" id="limitOrderNum" value="40"/>
+		<input type="hidden" id="limitOrderCommBuyMaxNum" value="40"/>
+		<input type="hidden" id="isKrwFreeDuty" value="false"/>
+	</span>
+
+
+    <!-- 若所有购物袋均为空提示一下内容   -->
+    <div id="shoppingCartContainerCNY">
+        <div class="cen mt10 cart_null_div">
+            <div class="bd clearfix">
+                <img src="img/shopping-car.png" width="100" height="98" />
+                <div>
+                    <p class="cart_null_txt f14"> 您的购物袋中暂无商品，赶快选择心爱的商品吧！ </p>
+                    <p class="mt10">
+                        <a href="/" class="gohome_btn">回到首页</a>
+                    </p>
+                    <p class="mt30 f14"> 您可以查看：</p>
+                    <p class="mt15 see-my">
+                        <a href="/my/favorites.jhtml">我的收藏夹</a>
+                        <a href="/my/order.jhtml">我已购买的商品</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="shoppingCartContainerHKD"></div>
+    <div id="shoppingCartContainerKRW"></div>
+    <div id="shoppingCartContainerKRW_ZF"></div>
+
+    <div class="clearfix cen mt15">
+        <div class="fr cgray cart_btinfo">
+            <p class="cart_bz">
+                购物保障：<i class="icon_zp"></i>100%正品<i class="icon_thh"></i>10天退换货<i class="icon_bcj"></i>10天补差价
+            </p>
+            <p>优惠券/礼品卡在下一步使用</p>
+            <p><a href="/shoppingcart/shoppingcart_advise.jhtml" target="_blank" class="cgray">帮助我们改进购物流程</a></p>
+        </div>
+    </div>
+
+    <!--凑单提醒start-->
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zdtx">
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--凑单提醒end-->
+    <!--加价购推荐 start-->
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel jjg">
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//加价购推荐end>
+	<--//再买就满足活动 start-->
+
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zmjmz0">
+                <input type="hidden" class="loa" value="1" />
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zmjmz1">
+                <input type="hidden" class="loa" value="1" />
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zmjmz2">
+                <input type="hidden" class="loa" value="1" />
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zmjmz3">
+                <input type="hidden" class="loa" value="1" />
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zmjmz4">
+                <input type="hidden" class="loa" value="1" />
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//再买就满足活动end>	
+	
+	<--//根据购物袋商品推荐 start-->
+    <div id="similar_recommend" class="cen uc_main mt30" style="diplay:none">
+        <h3 class="f16 c6 f_yahei">购买了您购物袋中商品的顾客还买了</h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel gwcgm">
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div style=" width:950px; overflow:hidden;margin:auto;">
+                        <div class="slide_bd_c rel" style="height:600px;width:950px;">
+                            <ul class="uc_hpro_lst abs clearfix ul1 " style="height:600px;">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//根据购物袋商品推荐end>
+
+	<--//您最近收藏的商品start-->
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel zjsc">
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//您最近收藏的商品end-->
+
+    <!--最近浏览过的商品startt-->
+    <div class="cen uc_main mt30">
+        <h3 class="f16 c6 f_yahei"></h3>
+        <div class="cart_recpro">
+            <div class="uc_slide uc_cnlike rel recently_browse">
+                <div class="slide_hd">
+                    <h2></h2>
+                </div>
+                <div class="slide_bd">
+                    <a class="slide_lf abs" href="javascript:void(0);"></a>
+                    <a class="slide_rt abs" href="javascript:void(0);"></a>
+                    <p class="slide_page abs"></p>
+                    <div class="slide_bd_c rel">
+                        <ul class="uc_hpro_lst abs clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//最近浏览过的商品end-->
+
+    <!--底部start-->
+    <div class="cgray cen footer">
+        <span class="pr10">
+	        	Copyright &copy; 2011-2014 Yougou Technology Co., Ltd. 
+	        </span>
+        <span class="pr10">
+	        	<a href="http://www.miibeian.gov.cn" target="_blank">粤ICP备09070608号-4</a>
+	        </span>
+        <span class="pr10">
+	        	增值电信业务经营许可证：<a href="http://www.miibeian.gov.cn" target="_blank">粤 B2-20090203</a>
+	        </span>
+    </div>
+    <!--//底部end-->
+    <!--//问卷调查-->
+
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1016027598/?value=0&amp;label=189vCLqHowQQzrO95AM&amp;guid=ON&amp;script=0" />
+    </div>
+
+    <div style="display:none;">
+        <img height="0" width="0" style="border-style:none;" src="//eclick.baidu.com/rt.jpg?t=noscript&rtid=n1f4nf" />
+    </div>
+
+    <!-- 百度DSP start-->
+
+
+    <!-- 百度DSP end-->
+
+</body>
+
+</html>
