@@ -85,7 +85,7 @@
     <div class="ygwrap">
 
         <!--尺码弹窗-->
-        <div class="tcar_out select_size" id="select_size">
+        <div class="tcar_out select_size" id="select_size" style="left: 524.5px;top:792px">
             <div class="tcar_titleBar">
                 <div class="tcar_title">您尚未选择尺码</div>
                 <a href="javascript:void(0)" class="tcar_close" id="select_size_close"></a>
@@ -161,7 +161,7 @@
                 <!-- [issue #4146] 运动鞋显示第六张图片  -->
 
                 <div class="goodsPic">
-                    <div class="jqzoom" id="spec-n1" onClick="void(0)">
+                    <div class="jqzoom" id="spec-n1">
                         <!-- 第一张大图 start -->
                         <sup no="101198931" class="mark_big_101198931 salepic2"></sup>
                         <img id="pD-bimg" class="spic" width="480px" height="480px" jqimg="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_l.jpg?5" src="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_m.jpg?5" alt="BASTO/百思图2019夏季专柜同款黑色细跟休闲女凉鞋MA9M8BK9" />
@@ -205,7 +205,7 @@
                     </a> -->
                 </div>
                 <!-- <h1>BASTO/百思图2019夏季专柜同款黑色细跟休闲女凉鞋MA9M8BK9</h1> -->
-                <h1 class="title "></h1>
+                <h1 class="pictitle "></h1>
 
                 <!-- 活动标识 start 价格-->
                 <div class="good_ygprcarea clearfix ">
@@ -277,14 +277,14 @@
                     <div class="count clearfixed ">
                         <span class="title ">数量：</span>
                         <div class="input-content ">
-                            <input type="hidden " name="oldNum " class="oldNum " />
-                            <input type="text " value="1 " id="number " maxLength="1 " onbeforepaste="clipboardData.setData( 'text ',clipboardData.getData( 'text ').replace(/[^\d]/g, ' ')) " class="mycartxt newNum ">
+                            <!-- <input type="hidden " name="oldNum " class="oldNum " /> -->
+                            <input type="text " value="1 " id="number" maxLength="1 " onbeforepaste="clipboardData.setData( 'text ',clipboardData.getData( 'text ').replace(/[^\d]/g, ' ')) " class="mycartxt newNum ">
                         </div>
                         <div class="buttons ">
-                            <a href="javascript:; " id="bot_plus " class="plus ">
+                            <a href="javascript:; " id="bot_plus " class="plus " style="display: inline-block;background-color:#666;">
                                 <icon class="icon up "></icon>
-                            </a>
-                            <a href="javascript:; " id="bot_subtract " class="subtract ">
+                            </a><br>
+                            <a href="javascript:; " id="bot_subtract " class="subtract " style="display: inline-block;background-color:#666;">
                                 <icon class="icon down "></icon>
                             </a>
                         </div>
@@ -293,17 +293,9 @@
                     <div class="qbuy add-cart ">
                         <ul class="list ">
                             <li>
-                                <a id="addShoppingCart " href="javascript:void(0) " class="ks2 addShoppingCart yg-button yg-button-default yg-button-buy yg-button-active ">加入购物袋</a>
+                                <a id="addShoppingCart " href="http://10.31.158.19/1905-liuye/yougou/src/cart.html" target="_blank" class="ks2 addShoppingCart yg-button yg-button-default yg-button-buy yg-button-active ">加入购物袋</a>
                             </li>
-                            <li class="btn-immediate-buy ">
-                                <a id="buyNow " href="javascript:void(0) " class="lj2 yg-button yg-button-default yg-button-buy ">立即购买</a>
-                                <div class="qr-code ">
-                                    <div id="div_div ">
-                                        <div id="qr_container " style="margin:auto; position:relative; "></div>
-                                        <span>扫一扫加入购物袋</span>
-                                    </div>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                     <p class="blank10 "></p>
@@ -334,15 +326,17 @@
             </div>
 
             <form name="buyForm " id="buyForm " method="post ">
-                <input type="hidden " name="productNo " id="productNo " />
-                <input type="hidden " name="productNum " id="productNum " />
-                <input type="hidden " name="productUrl " id="productUrl " />
-                <input type="hidden " name="refProductUrl " id="refProductUrl " />
+                <input type="hidden " name="productNo " id="productNo " style="visibility: hidden" />
+                <input type="hidden " name="productNum " id="productNum " style="visibility: hidden" />
+                <input type="hidden " name="productUrl " id="productUrl " style="visibility: hidden" />
+                <input type="hidden " name="refProductUrl " id="refProductUrl " style="visibility: hidden" />
             </form>
 
         </div>
-
+        <script src="script/thirdplugins/jquery.min.js"></script>
+        <script src="script/thirdplugins/jquery.cookie.js"></script>
         <script src="script/details.js "></script>
+
 
 
 </body>

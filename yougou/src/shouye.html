@@ -38,6 +38,57 @@
         .indexnav2list .titt {
             margin-bottom: 6px;
         }
+        
+        #loutinav {
+            width: 35px;
+            position: fixed;
+            top: 60px;
+            left: 50px;
+            z-index: 100;
+            border: 1px solid #ddd;
+            display: none;
+        }
+        
+        #loutinav ul li {
+            width: 35px;
+            height: 32px;
+            border-bottom: 1px dotted #DDDDDD;
+            list-style: none;
+            font-size: 12px;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            padding: 10px 0;
+            background: #918888;
+            color: #fff;
+        }
+        
+        #loutinav ul li span {
+            width: 35px;
+            height: 32px;
+            padding: 10px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        #loutinav ul li.return {
+            background: #5e4a4a;
+            color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        #loutinav ul li.active span {
+            background: #c00;
+            color: #fff;
+            display: block;
+        }
+        
+        #loutinav ul li:hover span {
+            background: #c00;
+            color: #fff;
+            display: block;
+        }
     </style>
 
 </head>
@@ -56,13 +107,24 @@
     </script>
 
     <!-- 公用头部end -->
+    <!-- 楼梯start -->
+    <div id="loutinav">
+        <ul>
+            <li><span class="active">新品推荐</span> </li>
+            <li><span>今日主推大牌</span> </li>
+            <li><span>品牌潮流资讯</span> </li>
+            <li><span>女鞋</span> </li>
+            <li class="return">回到顶部</li>
+        </ul>
+    </div>
+    <!-- 楼梯end -->
 
     <div id="indexFocusPic" class="indexfocus" style="margin-top: 0px;">
         <div class="indexfocusbd">
 
-            <div class="imgBox" style="display: none;">
+            <div class="imgBox" style="display:block;">
 
-                <a href="//www.yougou.com/topics/156145687849.shtml#ref=index&amp;po=slideshow_slideshow1" target="_blank">
+                <a href="javascript:;">
 
 
                     <b class="big-banner" style="background:url(//i2.ygimg.cn/pics/shop/cms/home/2019/06/25/46320190625T182510.jpg)  center center no-repeat"></b>
@@ -72,7 +134,7 @@
 
             <div class="imgBox" style="display: block;">
 
-                <a href="//www.yougou.com/topics/156145869721.shtml#ref=index&amp;po=slideshow_slideshow2" target="_blank">
+                <a href="javascript:;">
 
 
                     <b class="big-banner" style="background:url(//i2.ygimg.cn/pics/shop/cms/home/2019/06/25/38520190625T194813.jpg)  center center no-repeat"></b>
@@ -95,10 +157,11 @@
 
             </div>
         </div>
+        <a href="javascript:;" class="right"></a>
     </div>
 
     <!-- 最新产品发布 -->
-    <div id="command-new-products">
+    <div id="command-new-products" class="floor">
         <div class="command-title">
             <div class="title">新品推荐</div>
             <!--    <div class="en-title">NEW LIVING</div>-->
@@ -691,7 +754,7 @@
 
     <!-- 最新产品发布 -->
     <!-- 今日主推大牌 -->
-    <div id="command-brand">
+    <div id="command-brand" class="floor">
         <div class="command-title">
             <div class="title">今日主推大牌</div>
             <!--      <div class="en-title">TODAY'S BRAND</div>-->
@@ -898,7 +961,7 @@
         </div>
     </div>
     <!-- 今日主推大牌 -->
-    <div class="ygwrap clearfix">
+    <div class="ygwrap clearfix floor">
         <div class="yui3-g">
             <div class="yui-content">
 
@@ -1138,7 +1201,7 @@
     <input type="hidden" name="price_area" value="" id="price_area" />
     <input type="hidden" name="isSearchKey" value="" id="isSearchKey" />
     <div class="filter-wrap">
-        <div class="filter-title-list">
+        <div class="filter-title-list floor">
             <ul class="menu-list">
                 <li><a href="/">首页</a><span class="fenge">&nbsp;&gt;</span></li>
                 <li>
@@ -2269,9 +2332,9 @@
         </div>
     </div>
     <script src="script/ajax.js"></script>
-    <script src="script/shouye.js"></script>
     <script src="script/thirdplugins/jquery.min.js"></script>
     <script src="script/thirdplugins/jquery.lazyload.js"></script>
+    <script src="script/thirdplugins/require.js" async="true" defer data-main="script/shouye.js"></script>
 
 </body>
 

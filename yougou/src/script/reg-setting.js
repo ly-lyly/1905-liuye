@@ -3,6 +3,7 @@
     $username = $('#reg_mobile_');
     $errortips = $('#reg_mobile_tip');
     $password = $('#reg_password_');
+    $email = $('.email')
     $reg_password_tip1 = $('#reg_password_tip1');
     $reg_password2 = $('#reg_password2');
     $reg_password_tip2 = $('#reg_password_tip2');
@@ -33,11 +34,5 @@
             }
         })
     });
-    $submit.on('click', function() {
-        if (!usernameflag) {
-            username.focus();
-            return false;
-        }
-    })
 
 })(jQuery)

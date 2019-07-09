@@ -132,7 +132,7 @@
             <div class="nreg_left fr">
                 <ul class="tab_sig_reg clearfix">
                     <li class="tab_sig tab_cur"><a href="#">帐户密码登录</a></li>
-                    <li class="tab_reg"><a href="javascript:a();">手机号快捷登录</a></li>
+                    <li class="tab_reg"><a>手机号快捷登录</a></li>
                 </ul>
                 <div class="nreg_form">
                     <form onsubmit="return false;" id="loginform" method="post">
@@ -140,7 +140,7 @@
                             <dd>
                                 <div class="nreg_input_bg">
                                     <i class="reg_user_name"></i>
-                                    <input type="text" name="email" placeholder="手机号/会员名称/邮箱" id="email_" class="nreg_input" maxlength="50" value="" />
+                                    <input type="text" name="email" placeholder="用户名" id="email_" class="nreg_input username" maxlength="50" value="" />
                                 </div>
                             </dd>
                             <dt><div id="login_email_tip" class="errortips"></div></dt>
@@ -154,7 +154,7 @@
                             </dd>
                             <dt><div id="login_password_tip" class="errortips"></div></dt>
                         </dl>
-                        <div id="code_container" style="display:none;">
+                        <!-- <div id="code_container" style="display:none;">
                             <dl class="nreg_item clearfix">
                                 <dd>
                                     <div class="nreg_input_bg fl" style="width:202px">
@@ -167,7 +167,7 @@
                                 </dd>
                                 <dt><div id="code2_tip"></div></dt>
                             </dl>
-                        </div>
+                        </div> -->
                         <p style="display: block;text-align: right;margin-right: 17px;">
                             <a href="https://www.yougou.com/forgotpassword.jhtml" style="line-height: 26px; text-decoration:underline">忘记密码？</a>
                         </p>
@@ -201,7 +201,8 @@
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1016027598/?label=EFaYCJrxqgIQzrO95AM&amp;guid=ON&amp;script=0" />
     </div>
-
+    <script src="script/thirdplugins/jquery.min.js"></script>
+    <script src="script/login.js"></script>
 </body>
 
 </html>

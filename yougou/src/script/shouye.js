@@ -1,4 +1,16 @@
-;
+require(['effects'], function() {
+    $('#indexFocusPic').switch({
+        btns: '.indexfocusft span',
+        pics: '.imgBox',
+        activeClass: 'hover',
+        etype: 'click',
+        autoplay: 2000,
+    });
+    $('#loutinav').louti({
+        stairs: 'ul li',
+        activeClass: 'active'
+    })
+});
 ! function() {
     const goodlist = document.querySelector('.proList');
     ajax({

@@ -5869,7 +5869,7 @@ a.f_yellow:hover,
 .tcar_close {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -47px -104px
+    background: url('../img/css_sprites.png') -47px -104px
 }
 
 .look_look {
@@ -6054,7 +6054,7 @@ a.f_yellow:hover,
     width: 482px;
     height: 482px;
     position: absolute;
-    background: url(//s1.ygimg.cn/template/common/images/loading.gif?325472601571f31e1bf00674c368d335) no-repeat;
+    background: url(http://s1.ygimg.cn/template/common/images/loading.gif?325472601571f31e1bf00674c368d335) no-repeat;
     top: 0;
     left: 0;
     display: none;
@@ -6069,7 +6069,7 @@ a.f_yellow:hover,
     height: 80px;
     overflow: hidden;
     border: 1px solid #dedede;
-    background: #fff url(//s1.ygimg.cn/template/common/images/sloading.gif?7b9776076d5fceef4993b55c9383dedd) no-repeat 40px 40px;
+    background: #fff url(http://s1.ygimg.cn/template/common/images/sloading.gif?7b9776076d5fceef4993b55c9383dedd) no-repeat 40px 40px;
     text-align: center;
     opacity: .7;
     -moz-opacity: .7;
@@ -6115,7 +6115,7 @@ a.f_yellow:hover,
     display: block;
     width: 6px;
     height: 10px;
-    background: url('/template/common/images/css_sprites.png') -212px -124px;
+    background: url('../img/css_sprites.png') -212px -124px;
     position: absolute;
     top: 33px;
     left: 66px
@@ -6264,7 +6264,7 @@ a.f_yellow:hover,
 .goods-wrapper .color .attrib a.select .picon {
     width: 14px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -177px -46px;
+    background: url('../img/css_sprites.png') -177px -46px;
     display: inline;
     position: absolute;
     right: 0;
@@ -6325,7 +6325,7 @@ a.f_yellow:hover,
 #select_size .prosize span.size a.select i {
     width: 14px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -177px -46px;
+    background: url('../img/css_sprites.png') -177px -46px;
     bottom: 0;
     right: 0;
     overflow: hidden;
@@ -6341,7 +6341,7 @@ a.f_yellow:hover,
 .goods-wrapper .shopping-container>.buy>.size .prosize .view-table .icon {
     width: 12px;
     height: 12px;
-    background: url('/template/common/images/css_sprites.png') -46px -174px;
+    background: url('../img/css_sprites.png') -46px -174px;
     padding-right: 5px
 }
 
@@ -6388,13 +6388,13 @@ a.f_yellow:hover,
 .goods-wrapper .shopping-container>.buy>.count>.buttons a .up {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -119px -104px
+    background: url('../img/css_sprites.png') -119px -104px
 }
 
 .goods-wrapper .shopping-container>.buy>.count>.buttons a .down {
     width: 18px;
     height: 14px;
-    background: url('/template/common/images/css_sprites.png') -86px -140px
+    background: url('../img/css_sprites.png') -86px -140px
 }
 
 .goods-wrapper .shopping-container>.buy>.add-cart {
@@ -6447,7 +6447,7 @@ a.f_yellow:hover,
     font-style: normal;
     width: 16px;
     height: 12px;
-    background: url('/template/common/images/css_sprites.png') -10px -174px;
+    background: url('../img/css_sprites.png') -10px -174px;
     margin: 3px 0 0 20px;
     width: 15px;
     height: 15px
@@ -6486,7 +6486,7 @@ a.f_yellow:hover,
     padding-left: 8px;
     width: 12px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -110px -174px
+    background: url('../img/css_sprites.png') -110px -174px
 }
 
 .product-info-wrapper,
@@ -6727,19 +6727,19 @@ a.f_yellow:hover,
 .comments-wrapper .list>.content .bg-img-comments .button li a .take-up {
     width: 7px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -212px -67px
+    background: url('../img/css_sprites.png') -212px -67px
 }
 
 .comments-wrapper .list>.content .bg-img-comments .button li a .left-turn {
     width: 10px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -142px -174px
+    background: url('../img/css_sprites.png') -142px -174px
 }
 
 .comments-wrapper .list>.content .bg-img-comments .button li a .right-turn {
     width: 10px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -172px -174px
+    background: url('../img/css_sprites.png') -172px -174px
 }
 
 .comments-wrapper .list>.content .bg-img-comments .thumb {
@@ -6783,7 +6783,7 @@ a.f_yellow:hover,
 .comments-wrapper .view-more>a i {
     width: 9px;
     height: 5px;
-    background: url('/template/common/images/css_sprites.png') -212px -154px;
+    background: url('../img/css_sprites.png') -212px -154px;
     margin-left: 8px
 }
 
@@ -6858,7 +6858,7 @@ a.f_yellow:hover,
     cursor: pointer;
     width: 12px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -10px -174px
+    background: url('../img/css_sprites.png') -10px -174px
 }
 
 .guess-like-container .guess-like-content>ul>.item-first {
@@ -6887,14 +6887,14 @@ a.f_yellow:hover,
 .guess-like-container .guess-like-content .bg-left {
     width: 14px;
     height: 25px;
-    background: url('/template/common/images/css_sprites.png') -104px -55px
+    background: url('../img/css_sprites.png') -104px -55px
 }
 
 .guess-like-container .guess-like-content .bg-right {
     right: 85px;
     width: 14px;
     height: 25px;
-    background: url('/template/common/images/css_sprites.png') -104px -10px
+    background: url('../img/css_sprites.png') -104px -10px
 }
 
 .bindSaleTj {
@@ -7094,7 +7094,7 @@ a.f_yellow:hover,
 .price_sc .collect {
     width: 15px;
     height: 15px;
-    background: url(/template/common/images/css_sprites.png) -38px -243px;
+    background: url(../img/css_sprites.png) -38px -243px;
     position: absolute;
     right: 8px;
     top: 5px;
@@ -7223,19 +7223,19 @@ a.f_yellow:hover,
 .ico_sq {
     width: 7px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -212px -67px
+    background: url('../img/css_sprites.png') -212px -67px
 }
 
 .ico_left {
     width: 10px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -142px -174px
+    background: url('../img/css_sprites.png') -142px -174px
 }
 
 .ico_right {
     width: 10px;
     height: 11px;
-    background: url('/template/common/images/css_sprites.png') -172px -174px
+    background: url('../img/css_sprites.png') -172px -174px
 }
 
 .bigcursor .showbox_hd img {
@@ -7254,7 +7254,7 @@ a.f_yellow:hover,
 .tcar_close {
     width: 16px;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -47px -104px;
+    background: url('../img/css_sprites.png') -47px -104px;
     display: block;
     position: absolute;
     padding: 0;
@@ -7275,7 +7275,7 @@ a.f_yellow:hover,
 .dialogSkin1 .uiClose {
     width: 0;
     height: 16px;
-    background: url('/template/common/images/css_sprites.png') -47px -104px;
+    background: url('../img/css_sprites.png') -47px -104px;
     color: #fff;
     float: right;
     margin: 7px 5px 0 10px;

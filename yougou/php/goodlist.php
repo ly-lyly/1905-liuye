@@ -1,8 +1,8 @@
 <?php
 require "conn.php";
-$result=$conn->query("select * from yougou");
+$result=mysql_query("select * from yougou");
 $dataarr=array();
 for($i=0;$i<$result->num_rows;$i++){
-    $dataarr[$i]=$result->fetch_assoc();
+    $dataarr[$i]=mysql_fetch_array($result,MYSQL_ASSOC);
 }
 echo json_encode($dataarr);
