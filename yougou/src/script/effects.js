@@ -339,7 +339,7 @@ define(['thirdplugins/jquery.min'], function() {
                 climbStairs() { //爬楼
                     let _this = this;
                     this.stairs.on('click', function() { //点击楼梯
-                        $(window).off('scroll');
+                        // $(window).off('scroll');
                         _this.num = $(this).index();
                         $(this).addClass(_this.setting.activeClass).siblings().removeClass(_this.setting.activeClass);
                         //$('html,body').scrollTop(_this.floors.eq(_this.num).offset().top - $(window).height() + 100)
@@ -347,7 +347,7 @@ define(['thirdplugins/jquery.min'], function() {
                             scrollTop: _this.floors.eq(_this.num).offset().top - 50
                         })
                     });
-                    $(window).on('scroll', function() { //滚动条爬楼
+                    $(window).on('mousewheel', function() { //滚动条爬楼
                         _this.floors.each(function(index, ele) {
                             if ($(window).scrollTop() > $(ele).offset().top - $(window).height() + 100) {
                                 _this.stairs.eq(index).addClass(_this.setting.activeClass).siblings().removeClass(_this.setting.activeClass);

@@ -12,11 +12,12 @@
     $price = $('price');
     $baseUrl = '10.31.158.19';
     $.ajax({
-        url: 'http://10.31.158.19/1905-liuye/yougou/php/goodlist.php',
+        url: 'http://10.31.158.19/1905-liuye/yougou/php/details.php',
+        data: {
+            id: sid
+        },
         dataType: 'json'
     }).done(function(datapic) {
-        console.log(datapic);
-        datapic = datapic[sid - 1];
         console.log(datapic);
         $spic.get(0).src = datapic.url;
         $bpic.get(0).src = datapic.url;
@@ -27,14 +28,13 @@
         $lihtml = '';
         $goodprice = $('.price');
         $goodprice.html($price);
-
-        // $.each($ullist, function(index, value) {
-        //     $lihtml += `<li class="hover">
-        //     <img width="60" height="60" picBigUrl="${value}" picLargeUrl="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_l.jpg?5" src="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_t.jpg?5" loadflag="1"
-        //         class="picSmallClass0" alt="${$title}" />
-        //     <i class="icon"></i>
-        // </li>`
-        // })
+        $.each($ullist, function(index, value) {
+            $lihtml += `<li class="hover">
+            <img width="60" height="60" picBigUrl="${value}" picLargeUrl="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_l.jpg?5" src="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_t.jpg?5" loadflag="1"
+                class="picSmallClass0" alt="${$title}" />
+            <i class="icon"></i>
+        </li>`
+        })
         $ulpics.html($lihtml);
 
 
@@ -166,43 +166,37 @@
 
         }
     });
-    //购物车的思路
-
-    var arrsid = []; //商品的sid
-    var arrnum = []; //商品的数量
-    function cookietoarray() {
-        if (getcookie('cookiesid') && getcookie('cookienum')) { //判断商品是第一次存还是多次存储
-            arrsid = getcookie('cookiesid').split(','); //cookie商品的sid  
-            arrnum = getcookie('cookienum').split(','); //cookie商品的num
+    // 购物车操作
+    $shoppingcart = $('#addShoppingCart');
+    $alertbox = $('#add_to_car');
+    let arrsid = []; //商品编号
+    let arrnum = []; //商品数量
+    //如果cookie存在，获取cookie的值，并转换成数组
+    function cookievalue() {
+        if ($.cookie('cookiesid') && $.cookie('cookienum')) {
+            arrsid = $.cookie('cookiesid').split(',');
+            arrnum = $.cookie('cookienum').split(',');
         }
     }
 
-    //2.有了上面的方法，可以点击加入购物车按钮判断商品是否是第一次还是多次。
-
-    $('.list a').on('click', function() { //点击加入购物车按钮。
-
-        //判断当前的商品sid是否存在购物车(cookie)
-        //判断当前的按钮对应的商品的sid和取出的cookie里面的sid进行比较
-
-        //获取当前的按钮对应的商品的sid
-        // var $sid = $(this).parents('.goodsPic').find('.spic').attr('sid');
-        cookietoarray(); //获取已经存在的cookie值。
-
-        if ($.inArray(sid, arrsid) != -1) { //商品存在，数量叠加 
-            //先取出cookie中的对应的数量值+当前添加的数量值，添加到对应的cookie中。
-            var num = parseInt(arrnum[$.inArray(sid, arrsid)]) + parseInt($('.newNum').val());
-            arrnum[$.inArray(sid, arrsid)] = num;
-            addcookie('cookienum', arrnum.toString(), 10); //数组存入cookie
-            addcookie('cookiesid', arrsid.toString(), 10)
-
-        } else { //不存在，第一次添加。将商品的id和数量存入数组，再存入cookie.
-            arrsid.push(sid); //将当前的id存入数组
-            addcookie('cookiesid', arrsid.toString(), 10); //数组存入cookie
-            arrnum.push($('.newNum').val());
-            addcookie('cookienum', arrnum.toString(), 10); //数组存入cookie
+    // $number = $('#number');
+    $shoppingcart.on('click', function() {
+        //确定按钮是第一次还是多次。
+        //先获取cookie的值,而且是一个数组。
+        cookievalue();
+        //当前按钮对应得sid，如果当前按钮对应得sid存在arrsid中，存在
+        var sid = $spic.getAttribute('sid'); //当前页面的sid
+        if (arrsid.indexOf(sid) === -1) {
+            arrsid.push(sid);
+            arrnum.push($number.val());
+            $.cookie('cookiesid', arrsid.toString(), 10);
+            $.cookie('cookienum', arrnum.toString(), 10);
+        } else {
+            let sum = Number(arrnum[arrsid.indexOf(sid)]) + Number($number.val()); //获取累加的值
+            arrnum[arrsid.indexOf(sid)] = sum;
+            $.cookie('cookienum', arrnum.toString(), 10);
         }
     });
 
-
-
+    console.log($.cookie(123))
 }(jQuery)
