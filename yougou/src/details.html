@@ -70,12 +70,22 @@
     <div id="common_header" class="header"></div>
     <div class="logo-container"></div>
     <!-- js -->
-    <script src="script\thirdplugins\jquery.min.js"></script>
+    <!-- <script src="script\thirdplugins\jquery.min.js"></script>
     <script>
         $('.header').load('yetou.html .header');
         $('.logo-container').load('yetou.html .logo-container');
+    </script> -->
+    <script src="script\thirdplugins\jquery.min.js"></script>
+    <script src="script/cookie.js"></script>
+    <script>
+        $('.header').load('yetou.html .header', function() {
+            $name = $('.item-frist');
+            // console.log($name);
+            $name.find('a').eq(0).html('你好!');
+            $name.find('a').eq(1).html(getcookie('username'));
+        });
+        $('.logo-container').load('yetou.html .logo-container');
     </script>
-
     <!-- 公用头部end -->
 
 
@@ -180,8 +190,8 @@
                         <a href="/c-basto/sku-ma9m8bk9-101198931-viewpic.shtml " target="_blank "></a>
                     </div>
                 </div>
-                <div id="spec-list " class="myspeclist ">
-                    <ul class="list-h ulpics ">
+                <div id="spec-list" class="myspeclist">
+                    <ul class="list-h ulpics">
                         <!-- 图片列表 start -->
                         <!-- <li class="hover ">
                             <img width="60 " height="60 " picBigUrl="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_m.jpg?5 " picLargeUrl="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_l.jpg?5 " src="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_t.jpg?5
@@ -196,13 +206,13 @@
             </div>
             <!--商品图片 end-->
 
-            <span id="pordNoSpan " class="fl Gray " style="display:none ">商品编号：101198931</span>
+            <span id="pordNoSpan" class="fl Gray" style="display:none">商品编号：101198931</span>
             <!--左侧 start-->
             <div class="shopping-container ">
                 <div class="brand-logo ">
-                    <!-- <a href="/f-basto-0-0-6.html ">
-                        <img src="//i1.ygimg.cn/pics/brandlogo/brandlogforcms/blackS-basto.png " width="112 " height="52 ">
-                    </a> -->
+                    <a href="">
+                        <img src="img/blackL-bata.png" width="112 " height="52 ">
+                    </a>
                 </div>
                 <!-- <h1>BASTO/百思图2019夏季专柜同款黑色细跟休闲女凉鞋MA9M8BK9</h1> -->
                 <h1 class="pictitle "></h1>
@@ -210,7 +220,7 @@
                 <!-- 活动标识 start 价格-->
                 <div class="good_ygprcarea clearfix ">
                     <p class="price single_price " id="ygprice_area ">
-                        <span id="yitianPrice " class="now symbol ">￥<i class="now number price "></i></span>
+                        <span id="yitianPrice" class="now symbol ">￥<i class="now number price"></i></span>
                         <del>¥ 699 </del>
                         <span id="jies " class="ico_discount "><i></i>折</span>
                     </p>
@@ -239,9 +249,9 @@
                 <div class="buy ">
 
                     <!-- 颜色 start -->
-                    <div class="color ">
-                        <p data-property="颜色 " class="attrib " id="imgBtn_0 ">
-                            <span class="fl " style="display: inline; ">颜色：</span>
+                    <div class="color">
+                        <p data-property="颜色 " class="attrib colorlist" id="imgBtn_0 ">
+                            <!-- <span class="fl " style="display: inline; ">颜色：</span>
                             <span class="fl prodSpec " style="display: inline; width: 400px; margin-left: 2px; ">
 												<a class="select " href="javascript:void(0) " data-name="黑色 "> 
 													  <img width="40 " height="40 " src="//i2.ygimg.cn/pics/basto/2019/101198931/101198931_01_c.jpg?5 " alt="黑色 " midpic="//i2.ygimg.cn/pics/basto/2019/101198931/101198931_01_s.jpg?5 " /> <i class="picon "></i>
@@ -249,7 +259,7 @@
 												<a  href="javascript:location.href='//www.yougou.com/c-basto/sku-ma9m8bk9-101198932.shtml' +location.hash " data-name="红色 ">
 													 <img width="40 " height="40 " src="//i2.ygimg.cn/pics/basto/2019/101198932/101198932_01_c.jpg?5 " alt="红色 " midpic="//i2.ygimg.cn/pics/basto/2019/101198932/101198932_01_s.jpg?5 " /> <i class="picon "></i>
 												</a>
-									</span>
+									</span> -->
                         </p>
                     </div>
                     <!-- 颜色 end -->
@@ -341,4 +351,4 @@
 
 </body>
 
-</html>
+<!-- </html> -->

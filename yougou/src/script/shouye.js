@@ -17,7 +17,7 @@ require(['effects'], function() {
         url: 'http://10.31.158.19/1905-liuye/yougou/php/goodlist.php',
         dataType: 'json',
         success: function(piclist) {
-            console.log(piclist.length)
+            // console.log(piclist.length)
             let htmlstr = '';
             for (let i = 0; i < piclist.length; i++) {
                 htmlstr += `

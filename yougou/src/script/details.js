@@ -9,35 +9,41 @@
     $pic = $('.jqzoom')
 
     $title = $('.pictitle');
-    $price = $('price');
+
     $baseUrl = '10.31.158.19';
     $.ajax({
         url: 'http://10.31.158.19/1905-liuye/yougou/php/goodlist.php',
         dataType: 'json'
-    }).done(function(datapic) {
-        console.log(datapic);
-        datapic = datapic[sid - 1];
-        console.log(datapic);
+    }).done(function(datapic) { //接口数组
+
+        datapic = datapic[sid - 1]; //sid-1 为数组的索引
+        $price = $('#yitianPrice').find('i');
+
         $spic.get(0).src = datapic.url;
         $bpic.get(0).src = datapic.url;
         $title.html(datapic.title);
         $price.html(datapic.price);
-        $ulpics = $('.ulpics')
+
+        $ulpics = $('.ulpics');
+
         $ullist = datapic.imgurls.split(',');
+
         $lihtml = '';
-        $goodprice = $('.price');
-        $goodprice.html($price);
-
-        // $.each($ullist, function(index, value) {
-        //     $lihtml += `<li class="hover">
-        //     <img width="60" height="60" picBigUrl="${value}" picLargeUrl="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_l.jpg?5" src="//i1.ygimg.cn/pics/basto/2019/101198931/101198931_01_t.jpg?5" loadflag="1"
-        //         class="picSmallClass0" alt="${$title}" />
-        //     <i class="icon"></i>
-        // </li>`
-        // })
+        $colorhtml = '';
+        $.each($ullist, function(index, value) {
+            $lihtml += `<li class="hover">
+                            <img width="60 " height="60 " picBigUrl="${value}" picLargeUrl="${value}" src="${value}
+                            " loadflag="1"
+                                class="picSmallClass0 " alt="BASTO/百思图2019夏季专柜同款黑色细跟休闲女凉鞋MA9M8BK9 " />
+                            <i class="icon "></i>
+                        </li> `;
+        });
         $ulpics.html($lihtml);
-
-
+        $list = $('.hover');
+        $list.hover(function() {
+            $spic.get(0).src = $(this).find('img').attr('src');
+            $bpic.get(0).src = $(this).find('img').attr('src');
+        })
     });
     $pic.on('mouseover', function(ev) {
         $sf.css({
@@ -109,21 +115,21 @@
 
 
         $size.each(function(index, ele) {
-            console.log($(ele).hasClass('select'));
-            if ($(ele).hasClass('select')) {
-                $flag = true;
-                $sizebox.css({
-                    display: 'none'
-                })
-            }
-        })
-        console.log($flag);
+                // console.log($(ele).hasClass('select'));
+                if ($(ele).hasClass('select')) {
+                    $flag = true;
+                    $sizebox.css({
+                        display: 'none'
+                    })
+                }
+            })
+            // console.log($flag);
         if ($flag) {
 
             $num++;
             $number.val($num);
-            console.log($num);
-            console.log($number.val());
+            // console.log($num);
+            // console.log($number.val());
             if ($number.val() > 3) {
                 $number.val(3);
                 alert('限购三双！');
@@ -178,6 +184,7 @@
     }
 
     //2.有了上面的方法，可以点击加入购物车按钮判断商品是否是第一次还是多次。
+    console.log(1111111, $('#number').val());
 
     $('.list a').on('click', function() { //点击加入购物车按钮。
 
@@ -190,7 +197,7 @@
 
         if ($.inArray(sid, arrsid) != -1) { //商品存在，数量叠加 
             //先取出cookie中的对应的数量值+当前添加的数量值，添加到对应的cookie中。
-            var num = parseInt(arrnum[$.inArray(sid, arrsid)]) + parseInt($('.newNum').val());
+            var num = parseInt(arrnum[$.inArray(sid, arrsid)]) + parseInt($('#number').val());
             arrnum[$.inArray(sid, arrsid)] = num;
             addcookie('cookienum', arrnum.toString(), 10); //数组存入cookie
             addcookie('cookiesid', arrsid.toString(), 10)
@@ -198,8 +205,9 @@
         } else { //不存在，第一次添加。将商品的id和数量存入数组，再存入cookie.
             arrsid.push(sid); //将当前的id存入数组
             addcookie('cookiesid', arrsid.toString(), 10); //数组存入cookie
-            arrnum.push($('.newNum').val());
+            arrnum.push($('#number').val());
             addcookie('cookienum', arrnum.toString(), 10); //数组存入cookie
+            console.log(1111111, $('#number').val());
         }
     });
 

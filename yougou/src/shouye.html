@@ -101,8 +101,14 @@
     <div class="logo-container"></div>
     <!-- js -->
     <script src="script\thirdplugins\jquery.min.js"></script>
+    <script src="script/cookie.js"></script>
     <script>
-        $('.header').load('yetou.html .header');
+        $('.header').load('yetou.html .header', function() {
+            $name = $('.item-frist');
+            console.log($name);
+            $name.find('a').eq(0).html('你好!');
+            $name.find('a').eq(1).html(getcookie('username'));
+        });
         $('.logo-container').load('yetou.html .logo-container');
     </script>
 

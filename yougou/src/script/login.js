@@ -18,7 +18,7 @@
                 $password.val('');
             } else {
                 location.href = 'shouye.html';
-                localStorage.setItem('successname', $username.val());
+                addcookie('username', $username.val(), 7);
             }
         })
     })
