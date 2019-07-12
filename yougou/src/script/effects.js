@@ -17,7 +17,7 @@
 //          激活类名前面不加点
 //     })
 // });
-define(['thirdplugins/jquery.min'], function() {
+define(['https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js'], function() {
     $.fn.extend({
         //轮播图插件
 
@@ -37,7 +37,7 @@ define(['thirdplugins/jquery.min'], function() {
                         pics: 'ul li', //图片的选择器
                         activeClass: 'active', //按钮激活的类名
                         showClass: '', //图片激活的类名,如果通过改变样式改变图片则可不填
-                        invoke: 1, //初始显示图片和按钮的索引,任意非负数
+                        invoke: 0, //初始显示图片和按钮的索引,任意非负数
                         etype: 'mouseover', //切换方式,默认mouseover,可设置click
                         leftBtn: '.left', //左箭头的选择器
                         rightBtn: '.right', //右箭头选择器
@@ -316,10 +316,10 @@ define(['thirdplugins/jquery.min'], function() {
                 init() {
                     $.extend(true, this.setting, this.option);
                     this.floors = $(this.setting.floors);
-                    console.log(this.floors);
+                    //console.log(this.floors);
                     this.goTopBtn = $(this.setting.goTop);
                     this.stairs = this.stair.find(this.setting.stairs).not(this.goTopBtn);
-                    console.log(this.stairs);
+                    //console.log(this.stairs);
                     this.firstStair = this.floors.eq(0);
                     this.showStair();
                     this.climbStairs();

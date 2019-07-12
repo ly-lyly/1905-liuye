@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const watch = require('gulp-watch');
 const minihtml = require('gulp-minify-html');
 const minicss = require('gulp-minify-css');
-// const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const babel = require('gulp-babel');
 const es2015 = require('babel-preset-es2015');
@@ -44,7 +44,7 @@ gulp.task('babeljs', () => {
             presets: ['es2015']
         })) //执行压缩插件
         .pipe(uglify())
-        .pipe(gulp.dest('dist/js')); //输出
+        .pipe(gulp.dest('dist/script')); //输出
 });
 
 

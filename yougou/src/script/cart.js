@@ -98,7 +98,7 @@
             $count = 99;
         }
         $(this).parents('.shopping_cart_tr').find('.col_5 input').val($count);
-        $(this).parents('.shopping_cart_tr').find('.col_5').find('strong').html(singlegoodsprice($(this)));
+        $(this).parents('.shopping_cart_tr').find('.col_6').find('strong').html(singlegoodsprice($(this)));
         priceall();
         setcookie($(this));
 
@@ -112,7 +112,7 @@
             $count = 1;
         }
         $(this).parents('.shopping_cart_tr').find('.col_5 input').val($count);
-        $(this).parents('.shopping_cart_tr').find('.col_5').find('strong').html(singlegoodsprice($(this)));
+        $(this).parents('.shopping_cart_tr').find('.col_6').find('strong').html(singlegoodsprice($(this)));
         priceall();
         setcookie($(this));
     });
@@ -139,7 +139,7 @@
 
 
     function singlegoodsprice(obj) {
-        let $dj = parseFloat(obj.parents('.shopping_cart_tr').find('.col_6').find('strong').html());
+        let $dj = parseFloat(obj.parents('.shopping_cart_tr').find('.col_4').html());
         let $cnum = parseInt(obj.parents('.shopping_cart_tr').find('.col_5 input').val());
         return ($dj * $cnum).toFixed(2);
     }

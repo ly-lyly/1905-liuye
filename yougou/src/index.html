@@ -94,20 +94,35 @@
 </head>
 
 <body>
-    <span class="site-nav-icon"></span>
+    <!-- <span class="site-nav-icon"></span> -->
     <!-- 公共头部start -->
     <!--公用头部start-->
     <div id="common_header" class="header"></div>
     <div class="logo-container"></div>
     <!-- js -->
-    <script src="script\thirdplugins\jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="script/cookie.js"></script>
     <script>
         $('.header').load('yetou.html .header', function() {
+            $close = $('.tuichu');
             $name = $('.item-frist');
-            console.log($name);
-            $name.find('a').eq(0).html('你好!');
-            $name.find('a').eq(1).html(getcookie('username'));
+            $shoppingcart = $('.item-cart');
+            if (getcookie('username')) {
+                $close.show();
+                $name.find('a').eq(0).html('你好!');
+                $name.find('a').eq(1).html(getcookie('username'));
+                $close.on('click', function() {
+                    delcookie('username');
+                    $name.find('a').eq(0).html('登录');
+                    $name.find('a').eq(1).html('注册');
+                    $close.hide();
+                })
+            } else {
+                $close.hide();
+                $shoppingcart.on('click', function() {
+                    alert('请先登录');
+                })
+            }
         });
         $('.logo-container').load('yetou.html .logo-container');
     </script>
@@ -2247,8 +2262,8 @@
                         <dl>
                             <dt>优购客服</dt>
                             <dd class="dd-title-first">
-                                <a onclick="easemobim.bind({configId: &quot;1f142cd0-a8ca-4769-b447-59f9fa01bb65&quot;})" href="javascript:;" class="link">
-                                    <i class="icon bg-bottom_Consultation"></i> 在线咨询</a>
+                                <!-- <a onclick="easemobim.bind({configId: quot1f142cd0-a8ca-4769-b447-59f9fa01bb65quot})" href="javascript:;" class="link"> -->
+                                <i class="icon bg-bottom_Consultation"></i> 在线咨询</a>
                             </dd>
                             <dd class="dd-title">
                                 <a href="javascript:;" class="link">Email: ygservice@belle.com.cn
@@ -2337,11 +2352,12 @@
             </div>
         </div>
     </div>
+
     <script src="script/ajax.js"></script>
-    <script src="script/thirdplugins/jquery.min.js"></script>
-    <script src="script/thirdplugins/jquery.lazyload.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="script/shouye.js"></script>
-    <script src="script/thirdplugins/require.js" async="true" defer data-main="script/shouye.js"></script>
+    <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.3/jquery.lazyload.min.js"></script>
+    <script src="https://cdn.bootcss.com/require.js/2.1.22/require.min.js" async="true" defer data-main="script/shouye.js"></script>
 
 
 </body>

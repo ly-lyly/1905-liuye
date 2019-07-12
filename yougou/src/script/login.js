@@ -17,7 +17,7 @@
                 alert('用户名或密码错误');
                 $password.val('');
             } else {
-                location.href = 'shouye.html';
+                location.href = 'index.html';
                 addcookie('username', $username.val(), 7);
             }
         })

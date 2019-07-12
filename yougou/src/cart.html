@@ -11,7 +11,7 @@
     <link href="css/uc.base.css" type="text/css" rel="stylesheet" />
     <link href="css/base.css" type="text/css" rel="stylesheet" />
     <link href="css/shopcar_v4.0.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/cart.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/cart.css" /> -->
 
 </head>
 
@@ -22,8 +22,31 @@
     <div id="common_header" class="header"></div>
     <!-- js -->
     <script src="script\thirdplugins\jquery.min.js"></script>
+    <script src="script/cookie.js"></script>
     <script>
-        $('.header').load('yetou.html .header');
+        //$('.header').load('yetou.html .header');
+        $('.header').load('yetou.html .header', function() {
+            $close = $('.tuichu');
+            $name = $('.item-frist');
+            $shoppingcart = $('.item-cart');
+            if (getcookie('username')) {
+                $close.show();
+                $name.find('a').eq(0).html('你好!');
+                $name.find('a').eq(1).html(getcookie('username'));
+                $close.on('click', function() {
+                    delcookie('username');
+                    $name.find('a').eq(0).html('登录');
+                    $name.find('a').eq(1).html('注册');
+                    $close.hide();
+                })
+            } else {
+                $close.hide();
+                $shoppingcart.on('click', function() {
+                    alert('请先登录');
+                })
+            }
+        });
+        $('.logo-container').load('yetou.html .logo-container');
     </script>
     <!--header end-->
 
@@ -95,7 +118,7 @@
                         <th>
                             <span class="pr25">商品名称</span>
                         </th>
-                        <th>颜色尺码</th>
+                        <!-- <th>颜色尺码</th> -->
                         <th>单价</th>
                         <th>数量</th>
                         <th>小计(元)</th>
@@ -185,12 +208,12 @@
                                     全选
                             </label>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="JsFavorite" pid="all" href="javascript:;">移入收藏夹</a>
                 </li>
                 <li class="operation">
                     <a class="JsRemoveGood" pid="all" href="javascript:;">删除</a>
-                </li>
+                </li> -->
             </ul>
 
 
@@ -206,7 +229,7 @@
 
         <div class="cen cart_gray_box_ft">
             <a href="/" class="cart_goon_link mt5 ml20 fl">继续购物</a>
-            <div class="fl mt15">
+            <div class="fl mt15 operation">
                 <a href="javascript:;" class="cblue ml20 clearShopcart" tradeCurrency="CNY">清空购物袋</a>
             </div>
             <div class="fr">
